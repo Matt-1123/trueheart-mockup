@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/* ----------------------------- */
+/* ----------- RESETS -----------*/
+/* ----------------------------- */
+body {
+    margin: 0
+}
+
+div, nav, main, section, article, aside {
+    float: left;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ----------------------------- */
+/* ----------- NAV --------------*/
+/* ----------------------------- */
+
+ul li {
+    display: inline;
+    padding: 5px;
+    position: relative;
+}
+
+ul ul {
+    font: 100 1.2rem/1.5em 'sans-serif';
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 100%;
+    list-style: none;
+    background: #f99;
+    padding: 5px;
+}
+
+ul ul li {
+    display: block;
+    background: #fdd;
+    margin: 0;
+}
+
+ul ul li:hover {
+    background: #3ea;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+.center {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.hover-border {
+    font: 100 1.5em/1.5em 'sans-serif';
+    position: relative;
+    display: inline;
+}
+
+.hover-border:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #D66D75;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E29587, #D66D75);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E29587, #D66D75);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    bottom: 0;
+    left: 50%;
+    border-radius: 10px;
+    transition: all 90ms ease-out;
+}
+
+.hover-border:hover:after {
+    left: 0;
+    width: 100%;
+}
+
+hr {
+    width: 85%;
+}
+
+/* ----------------------------- */
+/* ------------ MAIN ------------*/
+/* ----------------------------- */
