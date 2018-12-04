@@ -21,10 +21,10 @@ ul {
     list-style: none;
 }
 
+
 /* ----------------------------- */
 /* ----------- NAV --------------*/
 /* ----------------------------- */
-
 ul li {
     display: inline;
     padding: 5px;
@@ -64,7 +64,8 @@ ul li:hover ul {
 }
 
 .hover-border {
-    font: 100 1.5em/1.5em 'sans-serif';
+    /* font-family: 'Quicksand', sans-serif; */
+    font: 100 1.6em/1.5em 'Quicksand', 'sans-serif';
     position: relative;
     display: inline;
 }
@@ -98,3 +99,9 @@ hr {
 /* ----------------------------- */
 /* ------------ MAIN ------------*/
 /* ----------------------------- */
+/* ----------------------------- */
+/* ---------- DONATE ------------*/
+/* ----------------------------- */
+q {
+    font-style: italic;
+}
