@@ -212,6 +212,7 @@ nav:hover .modal-nav {
 } */
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 =======
 /* ----------------------------- */
 /* ------ HAMBURGER NAV----------*/
@@ -310,6 +311,8 @@ nav:hover .modal-nav {
     color: #eee;
 }
 >>>>>>> c63ee214332ab1bf1202de18f09fb3ad66f83437
+=======
+>>>>>>> a71df5e... Added responsiveness and diagonal styling to img/text sections
 
 /* ----------------------------- */
 /* ------------ MAIN ------------*/
@@ -331,11 +334,15 @@ q {
 
 #jumbotron {
 <<<<<<< HEAD
+<<<<<<< HEAD
     /* margin-bottom: 100px; */
 =======
     margin-bottom: 100px;
     max-width: 100%;
 >>>>>>> c63ee214332ab1bf1202de18f09fb3ad66f83437
+=======
+    /* margin-bottom: 100px; */
+>>>>>>> a71df5e... Added responsiveness and diagonal styling to img/text sections
 }
 
 #footer {
