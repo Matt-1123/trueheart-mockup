@@ -17,7 +17,7 @@ div, nav, main, section, aside {
     float: left;
     width: 100%;
     position: relative;
-    display: block;
+    display: block
 }
 
 a {
@@ -37,22 +37,23 @@ nav {
     text-align: center;
 }
 
-nav img{
-  display: block;
-  float: left;
-  height: 65px;
-  margin: 5px;
-  width: auto;
+nav img {
+    display: block;
+    float: left;
+    height: 65px;
+    margin: 5px;
 }
-#hamburger{
-  display: none;
-  float: right;
-  position: absolute;
-  right: 15px;
-  top: 15px;
+
+#hamburger {
+    display: none;
+    float: right;
+    position: absolute;
+    right: 15px;
+    top: 15px;
 }
-#mobile-nav{
-  display: none;
+
+#mobile-nav {
+    display: none;
 }
 
 ul li {
@@ -126,43 +127,48 @@ hr {
     width: 85%;
 }
 
-@media (max-width: 700px){
-  #hamburger{
-    display: block;
-  }
-  #desktop-nav{
-    display: none;
-  }
-  #mobile-nav{
-    display: none;
-    position: absolute;
-    width: 100%;
-    top: 100%;
-    z-index: 5000;
-    margin: 0;
-    padding: 0;
-  }
-  #mobile-nav.show{
-    display:block;
-  }
-  #mobile-nav li{
-    width: 100%;
-    display: block;
-    font-size: 1.5em;
-    padding: 15px 12px;
-    border-bottom: 1px solid #000;
-    background: #FAF3DD;
-    font-family: 'Quicksand', 'sans-serif'
-  }
-  #mobile-nav li:hover{
-    opacity: 0.8;
-  }
+@media (max-width: 700px) {
+    #hamburger {
+        display: block;
+    }
+
+    #desktop-nav {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        z-index: 5000;
+        margin: 0;
+        padding: 0;
+    }
+
+    #mobile-nav.show {
+        display: block;
+    }
+
+    #mobile-nav li {
+        width: 100%;
+        display: block;
+        font-size: 1.5em;
+        padding: 15px 12px;
+        border-bottom: 1px solid #000;
+        background: #FAF3DD;
+        font-family: 'Quicksand', 'sans-serif'
+    }
+
+    #mobile-nav li:hover {
+        opacity: 0.8;
+    }
 }
 
 /* ----------------------------- */
 /* ------ MODAL NAV----------*/
 /* ----------------------------- */
-nav {
+/* nav {
     position: relative;
 }
 
@@ -172,7 +178,7 @@ nav:hover .modal-nav {
 }
 
 .modal-nav {
-    display: none;
+    display: hidden;
     color: #ddd;
     height: 500px;
     width: 1300px;
@@ -189,7 +195,7 @@ nav:hover .modal-nav {
 
 .modal-info {
     width: 25%;
-}
+} */
 
 /* ----------------------------- */
 /* ------ HAMBURGER NAV----------*/
@@ -306,6 +312,10 @@ q {
     margin: 0 auto;
 }
 
+#jumbotron {
+    margin-bottom: 100px;
+}
+
 #footer {
     margin: 0 auto;
     width: 1300px;
@@ -336,10 +346,9 @@ article div {
     width: 50%;
 }
 
-section {
+/* section {
     margin: 50px 0;
-}
-
+} */
 #footer ul {}
 
 .fab {
@@ -349,25 +358,31 @@ section {
 /* ----------------------------- */
 /* ---------- BIOS --------------*/
 /* ----------------------------- */
-.bio-wrapper {
+#bio-section {
+    background: #cacac5;
 
-    width: 80%;
-    text-align: center;
 }
+.content-wrapper {
+    margin:0 6%;
 
+}
 .bio {
-    width: 50%;
-    margin: 0 auto 50px auto;
-}
+    text-align: center;
+    width: 28%;
+    margin: 10px;
 
-.bio-wrapper section {
-    margin:
-    }
+    background: #ababa0;
+}
 
 .bio img {
     border-radius: 50%;
 }
 
+.bio h4,{
+    margin:0;
+}
+
 .bio p {
-    /* width: 40%; */
+    font: 100 1.2em/1.6em 'Sanchez';
+    padding: 10px;
 }
