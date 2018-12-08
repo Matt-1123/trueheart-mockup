@@ -11,6 +11,7 @@
 
 html, body {
     margin: 0;
+
 }
 
 div, nav, main, section, aside {
@@ -127,6 +128,7 @@ hr {
     width: 85%;
 }
 
+<<<<<<< HEAD
 @media (max-width: 700px) {
     #hamburger {
         display: block;
@@ -158,7 +160,24 @@ hr {
     #mobile-nav li:hover {
         opacity: 0.8;
     }
+=======
+/* ----------------------------------------------------------------- */
+/* -------------------- TEMPORARY STYLES (TESTING) ------------------*/
+/* ----------------------------------------------------------------- */
+
+
+header {
+    /* margin-bottom: 150px; */
+    /* background: #f99;
+    height: 100vh; */
+>>>>>>> c63ee214332ab1bf1202de18f09fb3ad66f83437
 }
+
+/* ----------------------------------------------------------------- */
+/* -------------------- END TEMPORARY STYLES ----------------------- */
+/* ----------------------------------------------------------------- */
+
+
 
 /* ----------------------------- */
 /* ------ MODAL NAV----------*/
@@ -191,7 +210,106 @@ nav:hover .modal-nav {
 .modal-info {
     width: 25%;
 } */
+<<<<<<< HEAD
 
+=======
+/* ----------------------------- */
+/* ------ HAMBURGER NAV----------*/
+/* ----------------------------- */
+.nav-toggle {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+#nav {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    display: none;
+}
+
+#nav.show {
+    display: block;
+}
+
+#nav>li {
+    background: #3f9cc6;
+    border: 1.5px solid #000;
+    border-bottom: 0;
+    width: 185px;
+    line-height: 45px;
+    color: #eee;
+    font-size: 1.4em;
+    position: relative;
+}
+
+.expand::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107"; // angle down
+    padding: 0 0 0 60px;
+    position: absolute;
+    right: 10px;
+}
+
+.expand.expanded::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f106"; // angle up
+    padding: 0 0 0 60px;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+#nav>li:last-child {
+    border-bottom: 1.5px solid #000;
+}
+
+#nav>li:hover {
+    background-color: #62add0;
+    cursor: pointer;
+}
+
+#nav>li span {
+    padding: 0 0 0 20px;
+}
+
+.sub-nav {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    display: none;
+    padding: 0;
+}
+
+/* .sub-nav.show{
+  display: block;
+} */
+.sub-nav>li {
+    color: #d9d9d9;
+    background-color: #235c76;
+    font-size: 0.8em;
+    width: 185px;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #000;
+    text-decoration: none;
+}
+
+.sub-nav>li:hover {
+    opacity: .8;
+}
+
+.sub-nav>li a {
+    text-decoration: none;
+    color: #eee;
+}
+>>>>>>> c63ee214332ab1bf1202de18f09fb3ad66f83437
 
 /* ----------------------------- */
 /* ------------ MAIN ------------*/
@@ -212,7 +330,12 @@ q {
 }
 
 #jumbotron {
+<<<<<<< HEAD
     /* margin-bottom: 100px; */
+=======
+    margin-bottom: 100px;
+    max-width: 100%;
+>>>>>>> c63ee214332ab1bf1202de18f09fb3ad66f83437
 }
 
 #footer {
@@ -306,29 +429,34 @@ article div {
 /* ----------------------------- */
 #bio-section {
     background: #cacac5;
-
 }
+
+
 .content-wrapper {
-    margin:0 6%;
+    margin: 0 6%;
 
 }
+
 .bio {
     text-align: center;
     width: 28%;
     margin: 10px;
-
     background: #ababa0;
+    transition: all 150ms linear;
+
 }
 
 .bio img {
     border-radius: 50%;
+    max-width: 75%;
+
+    padding: 10px;
+
 }
 
-.bio h4,{
-    margin:0;
-}
 
 .bio p {
-    font: 100 1.2em/1.6em 'Sanchez';
+    font: 400 1.5vw/1.6em 'Sanchez';
     padding: 10px;
+
 }
