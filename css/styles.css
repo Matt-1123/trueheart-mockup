@@ -11,6 +11,7 @@
 
 html, body {
     margin: 0;
+
 }
 
 div, nav, main, section, aside {
@@ -127,43 +128,22 @@ hr {
     width: 85%;
 }
 
-@media (max-width: 700px) {
-    #hamburger {
-        display: block;
-    }
+/* ----------------------------------------------------------------- */
+/* -------------------- TEMPORARY STYLES (TESTING) ------------------*/
+/* ----------------------------------------------------------------- */
 
-    #desktop-nav {
-        display: none;
-    }
 
-    #mobile-nav {
-        display: none;
-        position: absolute;
-        width: 100%;
-        top: 100%;
-        z-index: 5000;
-        margin: 0;
-        padding: 0;
-    }
-
-    #mobile-nav.show {
-        display: block;
-    }
-
-    #mobile-nav li {
-        width: 100%;
-        display: block;
-        font-size: 1.5em;
-        padding: 15px 12px;
-        border-bottom: 1px solid #000;
-        background: #FAF3DD;
-        font-family: 'Quicksand', 'sans-serif'
-    }
-
-    #mobile-nav li:hover {
-        opacity: 0.8;
-    }
+header {
+    /* margin-bottom: 150px; */
+    /* background: #f99;
+    height: 100vh; */
 }
+
+/* ----------------------------------------------------------------- */
+/* -------------------- END TEMPORARY STYLES ----------------------- */
+/* ----------------------------------------------------------------- */
+
+
 
 /* ----------------------------- */
 /* ------ MODAL NAV----------*/
@@ -196,7 +176,6 @@ nav:hover .modal-nav {
 .modal-info {
     width: 25%;
 } */
-
 /* ----------------------------- */
 /* ------ HAMBURGER NAV----------*/
 /* ----------------------------- */
@@ -314,6 +293,7 @@ q {
 
 #jumbotron {
     margin-bottom: 100px;
+    max-width: 100%;
 }
 
 #footer {
@@ -360,29 +340,34 @@ article div {
 /* ----------------------------- */
 #bio-section {
     background: #cacac5;
-
 }
+
+
 .content-wrapper {
-    margin:0 6%;
+    margin: 0 6%;
 
 }
+
 .bio {
     text-align: center;
     width: 28%;
     margin: 10px;
-
     background: #ababa0;
+    transition: all 150ms linear;
+
 }
 
 .bio img {
     border-radius: 50%;
+    max-width: 75%;
+
+    padding: 10px;
+
 }
 
-.bio h4,{
-    margin:0;
-}
 
 .bio p {
-    font: 100 1.2em/1.6em 'Sanchez';
+    font: 400 1.5vw/1.6em 'Sanchez';
     padding: 10px;
+
 }
