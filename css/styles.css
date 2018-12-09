@@ -36,6 +36,7 @@ ul {
 /* ----------------------------- */
 nav {
     text-align: center;
+    z-index: 20;
 }
 
 nav img {
