@@ -128,39 +128,6 @@ hr {
     width: 85%;
 }
 
-<<<<<<< HEAD
-@media (max-width: 700px) {
-    #hamburger {
-        display: block;
-    }
-    #desktop-nav {
-        display: none;
-    }
-    #mobile-nav {
-        display: none;
-        position: absolute;
-        width: 100%;
-        top: 100%;
-        z-index: 5000;
-        margin: 0;
-        padding: 0;
-    }
-    #mobile-nav.show {
-        display: block;
-    }
-    #mobile-nav li {
-        width: 100%;
-        display: block;
-        font-size: 1.5em;
-        padding: 15px 12px;
-        border-bottom: 1px solid #000;
-        background: #FAF3DD;
-        font-family: 'Quicksand', 'sans-serif'
-    }
-    #mobile-nav li:hover {
-        opacity: 0.8;
-    }
-=======
 /* ----------------------------------------------------------------- */
 /* -------------------- TEMPORARY STYLES (TESTING) ------------------*/
 /* ----------------------------------------------------------------- */
@@ -170,7 +137,6 @@ header {
     /* margin-bottom: 150px; */
     /* background: #f99;
     height: 100vh; */
->>>>>>> c63ee214332ab1bf1202de18f09fb3ad66f83437
 }
 
 /* ----------------------------------------------------------------- */
@@ -210,10 +176,6 @@ nav:hover .modal-nav {
 .modal-info {
     width: 25%;
 } */
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-=======
 /* ----------------------------- */
 /* ------ HAMBURGER NAV----------*/
 /* ----------------------------- */
@@ -310,9 +272,6 @@ nav:hover .modal-nav {
     text-decoration: none;
     color: #eee;
 }
->>>>>>> c63ee214332ab1bf1202de18f09fb3ad66f83437
-=======
->>>>>>> a71df5e... Added responsiveness and diagonal styling to img/text sections
 
 /* ----------------------------- */
 /* ------------ MAIN ------------*/
@@ -333,16 +292,8 @@ q {
 }
 
 #jumbotron {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    /* margin-bottom: 100px; */
-=======
     margin-bottom: 100px;
     max-width: 100%;
->>>>>>> c63ee214332ab1bf1202de18f09fb3ad66f83437
-=======
-    /* margin-bottom: 100px; */
->>>>>>> a71df5e... Added responsiveness and diagonal styling to img/text sections
 }
 
 #footer {
@@ -360,14 +311,14 @@ q {
 }
 
 article {
-    font: 400 1.2em/1.4em 'sans-serif';
+    font: 400 1.2em/1.6em 'sans-serif';
     text-align: center;
-    /* margin: 0 auto;
-    width: 70%; */
+    margin: 0 auto;
+    width: 70%;
 }
 
 article p {
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -375,53 +326,6 @@ article div {
     width: 50%;
 }
 
-#sect-one{
-  background: #ffc34d;
-  height: 400px;
-}
-#sect-one #left{
-  width: 50%;
-  height: 100%;
-  background-image: -webkit-linear-gradient(30deg, #FFA800 50%, #ffc34d 50%);
-  min-height: 400px;
-}
-#sect-one-img{
-  width: 70%;
-  height: 80%;
-  margin: 5% 15%;
-  background-image: url('https://picsum.photos/400/400');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-#sect-one-text{
-  padding: 0 40px 0 0;
-  min-height: 400px;
-}
-#sect-two{
-  background: #6D676E
-;
-  height: 400px;
-}
-#sect-two-img{
-  width: 70%;
-  height: 80%;
-  margin: 5% 15%;
-  background-image: url('https://picsum.photos/401/401');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-#sect-two #right{
-  width: 50%;
-  height: 100%;
-  background-image: -webkit-linear-gradient(-30deg, #6D676E 50%, #403F4C 50%);
-  min-height: 400px;
-}
-#sect-two-text{
-  padding: 0 0 0 40px;
-  min-height: 400px;
-}
 /* section {
     margin: 50px 0;
 } */
