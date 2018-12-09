@@ -1,26 +1,31 @@
 @charset "UTF-8";
 
-@media (max-width: 360px) {
+@media (max-width: 519px) {
     .bio {
         width: 90%;
     }
 
     .bio img {
-        float: left;
         border-radius: 50%;
         max-width: 90%;
-
+        margin: 0 auto;
         transition: all 150ms linear;
     }
-    .bio p {
+    .bio p, h3  {
         display: none;
-        font: 100 1.2em/1.6em 'Sanchez';
         transition: all 150ms linear;
     }
+
+    /* img:hover p {
+        opacity: .5;
+        display: block;
+        font: 100 1.2em/1.6em 'Sanchez';
+        color: #fff
+    } */
 
 }
 
-@media screen and (min-width: 360px) and (max-width: 760px) {
+@media screen and (min-width: 520px) and (max-width: 760px) {
     #hamburger {
         display: block;
         cursor: pointer;
