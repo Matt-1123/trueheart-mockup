@@ -1,4 +1,4 @@
-*{
+/* *{
   box-sizing: border-box;
 }
 div, header, footer{
@@ -22,7 +22,7 @@ header p{
   margin: 0;
 }
 /* TOGGLE HAMBURGER MENU ON CLICK */
-.nav-toggle{
+/* .nav-toggle{
   position: absolute;
   right: 15px;
   top: 15px;
@@ -82,11 +82,11 @@ header p{
   margin: 0;
   display: none;
   padding: 0;
-}
+} */
 /* .sub-nav.show{
   display: block;
 } */
-.sub-nav > li{
+/* .sub-nav > li{
   color: #d9d9d9;
   background-color: #235c76;
   font-size: 0.8em;
@@ -102,4 +102,4 @@ header p{
 .sub-nav > li a{
   text-decoration: none;
   color: #eee;
-}
+}  */
