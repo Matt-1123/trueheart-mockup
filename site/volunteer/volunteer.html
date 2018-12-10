@@ -6,97 +6,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Volunteer &mdash; Tru Heart</title>
-    <link rel="stylesheet" href="css/volunteer.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand|Sanchez" rel="stylesheet">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-      $(function(){
 
-        var navToggle = $('.nav-toggle');
-        var nav = $('#nav');
-        var navItem = $('#nav > li');
-        var subNav = $('.sub-nav'); // ul nested in navItem
+    <!-- <script type="text/javascript">
+    $(function(){
 
-        navToggle.on('click', function(){
-          navToggle.toggleClass("fa-times fa-bars");
-          nav.slideToggle(200).toggleClass('show');
+      var navToggle = $('.nav-toggle');
+      var nav = $('#nav');
+      var navItem = $('#nav > li');
+      var subNav = $('.sub-nav'); // ul nested in navItem
 
-          // to-do: close all open subnavs
-        });
+      navToggle.on('click', function(){
+        navToggle.toggleClass("fa-times fa-bars");
+        nav.slideToggle(200).toggleClass('show');
 
-        $(navItem).on('click', function(){
-          var el = $(this);
-          el.children('.sub-nav').slideToggle(200).toggleClass('show');
-          // toggle up and down arrow on nav item
-          setTimeout(function() {
-            el.toggleClass('expanded');
-          }, 200);
-
-          // close other open subnavs
-          // if(el.siblings().children('sub-nav').hasClass("show")){
-          //   el.siblings().children('sub-nav')
-          //     .removeClass("show");
-          //     .slideToggle(400);
-          // }
-        });
+        // to-do: close all open subnavs
       });
 
+      $(navItem).on('click', function(){
+        var el = $(this);
+        el.children('.sub-nav').slideToggle(200).toggleClass('show');
+        // toggle up and down arrow on nav item
+        setTimeout(function() {
+          el.toggleClass('expanded');
+        }, 200);
 
-    </script>
+        // close other open subnavs
+        // if(el.siblings().children('sub-nav').hasClass("show")){
+        //   el.siblings().children('sub-nav')
+        //     .removeClass("show");
+        //     .slideToggle(400);
+        // }
+      });
+    });
+
+    </script> -->
 </head>
 
 <header>
-  <p>Tru Heart</p>
-  <i class="fas fa-bars fa-3x nav-toggle" id='hamburger'></i>
-  <ul id='nav'>
-    <li>
-      <span>Home</span>
-      <!-- <ul class='sub-nav'>
-        <li><a href="##">Lorem ipsum</a></li>
-        <li><a href="##">Lorem ipsum</a></li>
-        <li><a href="##">Lorem ipsum</a></li>
-      </ul> -->
-    </li>
-    <li>
-      <span>About</span>
-      <!-- <ul class='sub-nav'>
-        <li><a href="##">Lorem ipsum</a></li>
-        <li><a href="##">Lorem ipsum</a></li>
-        <li><a href="##">Lorem ipsum</a></li>
-      </ul> -->
-    </li>
-    <li>
-      <span class='expand'>Events</span>
-      <ul class='sub-nav'>
-        <li><a href="##">Upcoming</a></li>
-        <li><a href="##">Annual</a></li>
-        <li><a href="##">Recurring</a></li>
-        <li><a href="##">Past Events/Highlights</a></li>
-      </ul>
-    </li>
-    <li>
-      <span class='expand'>Get Involved</span>
-      <ul class='sub-nav'>
-        <li><a href="##">Donate</a></li>
-        <li><a href="##">Volunteer</a></li>
-        <li><a href="##">Sign Up</a></li>
-      </ul>
-    </li>
-    <li>
-      <span>Donate</span>
-      <!-- <ul class='sub-nav'>
-        <li><a href="##">Lorem ipsum</a></li>
-        <li><a href="##">Lorem ipsum</a></li>
-        <li><a href="##">Lorem ipsum</a></li>
-      </ul> -->
-    </li>
-  </ul>
+    <nav>
+
+        <img src="../../img/logo-header.png" alt="logo">
+        <ul id="desktop-nav">
+
+            <li class="hover-border"><a href="../../index.html">Home</a>
+
+            <li class="hover-border"><a href="">About</a>
+                <ul>
+                    <li><a href="../what-we-do/what-we-do.html">Mission</a></li>
+                    <li><a href="../how-much-we-raised/how-much-we-raised.html">Funds Raised</a></li>
+                    <li><a href="../scholarship/scholarship.html">Jim's Way Scholarship</a></li>
+                    <li><a href="../bios/bios.html">Bios</a></li>
+                </ul>
+            </li>
+            <li class="hover-border"><a href="">Events</a>
+                <ul>
+                    <li><a href="">Annual</a></li>
+                    <li><a href="">Recurring</a></li>
+                    <li><a href="">Upcoming</a></li>
+                </ul>
+            </li>
+            <li class="hover-border"><a href="">Get Involved</a>
+                <ul>
+
+                    <li><a href="#">Volunteer</a></li>
+                </ul>
+            </li>
+
+            <li class="hover-border" id="donate"><a href="">Donate</a>
+                <ul>
+                    <li>Give Once</li>
+                    <li>Give Monthly</li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul id="mobile-nav">
+            <li><a href="">About</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Get Involved</a></li>
+            <li><a href="../bios/bios.html">Bios</a></li>
+        </ul>
+        <i class="fas fa-bars fa-3x nav-toggle" id='hamburger'></i>
+        <!-- <hr> -->
+    </nav>
 </header>
+
+
+<div id="jumbotron">
+    <img src="https://picsum.photos/1350/550" alt="">
+</div>
+
+
+
+<div>
+    <article id="main">
+
+        <section>
+
+            <div>
+                <a href="##"><img src="https://picsum.photos/400/400" alt=""></a>
+            </div>
+
+            <div>
+                <h3>Heading</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque obcaecati eveniet nam. Ipsum deleniti tempora iure, beatae nesciunt distinctio error voluptatem officia repellat neque, maxime ea earum deserunt, libero</p>
+                nostrum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate nulla odio nihil dolorem quod porro officia laboriosam maxime accusamus eligendi, iusto labore, sed rem dicta ut natus alias quasi culpa.</p>
+            </div>
+        </section>
+
+        <section>
+
+            <div>
+                <h3>Heading</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque obcaecati eveniet nam. Ipsum deleniti tempora iure, beatae nesciunt distinctio error voluptatem officia repellat neque, maxime ea earum deserunt, libero
+                    nostrum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate nulla odio nihil dolorem quod porro officia laboriosam maxime accusamus eligendi, iusto labore, sed rem dicta ut natus alias quasi culpa.</p>
+            </div>
+
+            <div>
+                <a href="##"><img src="https://picsum.photos/401/401" alt=""></a>
+            </div>
+        </section>
+
+    </article>
+</div>
+
+
 <!------------------- Coppied Squarspace Code Below This Line ----------------->
-<body>
+<!-- <body>
   <h1 class="text-align-center">&nbsp;Make a Difference, Volunteer!</h1>
   <figure>
     <blockquote>
@@ -118,9 +160,15 @@
       <img src="https://static1.squarespace.com/static/58d5c0f8f7e0ab027a00b801/t/59557976197aead252f91297/1498773886546/15196076_1165914353477230_4064222785085712414_o.jpg?format=500w" alt="">
       <figcaption>Annual Thanksgiving Dinner Hosted by Tru Heart at the Schuyler Inn Shelter</figcaption>
     </figure>
-  </div>
-  <!-- ^^^^^^^^^^^^^^^Squarspace Content Above This Line ^^^^^^^^^^^^^^^^-->
-  <footer></footer>
+  </div> -->
+<!-- ^^^^^^^^^^^^^^^Squarspace Content Above This Line ^^^^^^^^^^^^^^^^-->
+<footer>
 
+
+</footer>
+
+
+<script src="../../script.js" charset="utf-8"></script>
 </body>
+
 </html>
