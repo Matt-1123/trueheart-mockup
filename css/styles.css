@@ -12,7 +12,9 @@
 html, body {
     margin: 0;
 }
-
+body {
+    background: #bbb;
+}
 img {
     max-width: 100%;
 }
@@ -162,43 +164,7 @@ hr {
     width: 85%;
 }
 
-/* ----------------------------------------------------------------- */
-/* -------------------- TEMPORARY STYLES (TESTING) ------------------*/
-/* ----------------------------------------------------------------- */
-/* ---------------------------------------------------------- */
-/* -------------------- END TEMPORARY STYLES ----------------------- */
-/* ----------------------------------------------------------------- */
-/* ----------------------------- */
-/* ------ MODAL NAV----------*/
-/* ----------------------------- */
-/* nav {
-    position: relative;
-}
 
-nav:hover .modal-nav {
-    display: block;
-    width: 1300px;
-}
-
-.modal-nav {
-    display: hidden;
-    color: #ddd;
-    height: 500px;
-    width: 1300px;
-    background: rgba(10, 22, 44, .8);
-    position: absolute;
-    margin: 5% auto 0 auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 20;
-    transition: all 300ms ease-out;
-}
-
-.modal-info {
-    width: 25%;
-} */
 /* ----------------------------- */
 /* ------ HAMBURGER NAV----------*/
 /* ----------------------------- */
@@ -306,6 +272,29 @@ nav:hover .modal-nav {
 /* ----------------------------- */
 /* ------------ MAIN ------------*/
 /* ----------------------------- */
+
+
+section  {
+    font: 100 1.2em/1.5em 'Quicksand', 'sans-serif';
+    margin:  15px auto;
+}
+
+h3 {
+    font: 400 1.4em/1.5em 'Sanchez', 'sans-serif';
+}
+
+.section-one {
+    background: #666;
+}
+.section-two {
+    background: #555;
+}
+.section-three {
+    background: #777;
+}
+.section-four {
+    background: #888;
+}
 /* ----------------------------- */
 /* ---------- DONATE ------------*/
 /* ----------------------------- */
@@ -327,24 +316,18 @@ q {
 }
 
 footer {
-    margin: 0 auto;
+    margin: 0;
     max-width: 100%;
     height: 100px;
     background: #333;
 }
 
-.nav {
-    background-image: url("https://picsum.photos/1400/100");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
 main {
-    font: 400 1.2em/1.6em 'sans-serif';
+    font: 400 1.4vw/1.6em 'sans-serif';
     text-align: center;
     margin: 0 auto;
-    width: 70%;
+    /* width: 70%; */
 }
 
 main p {
@@ -356,9 +339,8 @@ main div {
     width: 50%;
 }
 
-/* section {
-    margin: 50px 0;
-} */
+
+
 footer ul {}
 
 .fab {
