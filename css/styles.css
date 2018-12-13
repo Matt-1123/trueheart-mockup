@@ -12,9 +12,12 @@
 html, body {
     margin: 0;
 }
+
 body {
-    background: #bbb;
+    background: url('../img/particles-bg.png');
+    width: 100%;
 }
+
 img {
     max-width: 100%;
 }
@@ -58,12 +61,10 @@ nav {
 
 nav a {
     color: #eee;
-
 }
 
 #donate a {
-    color:#444;
-
+    color: #444;
 }
 
 nav img {
@@ -118,10 +119,12 @@ ul ul li {
 ul ul li:hover {
     background: #3ea;
 }
+
 ul ul li a:hover {
     color: #000;
-width: auto;
+    width: auto;
 }
+
 ul li:hover ul {
     display: block;
 }
@@ -164,11 +167,9 @@ hr {
     width: 85%;
 }
 
-
 /* ----------------------------- */
 /* ------ HAMBURGER NAV----------*/
 /* ----------------------------- */
-
 .nav-toggle {
     position: absolute;
     right: 15px;
@@ -272,29 +273,39 @@ hr {
 /* ----------------------------- */
 /* ------------ MAIN ------------*/
 /* ----------------------------- */
-
-
-section  {
+section {
     font: 100 1.2em/1.5em 'Quicksand', 'sans-serif';
-    margin:  15px auto;
+    margin: 15px auto;
+}
+.section-text {
+    padding: 10px;
+}
+.img-section img {
+    border-radius: 50%;
+    padding: 10px;
 }
 
 h3 {
     font: 400 1.4em/1.5em 'Sanchez', 'sans-serif';
+    margin-bottom: 2%;
 }
 
 .section-one {
     background: #666;
 }
+
 .section-two {
     background: #555;
 }
+
 .section-three {
     background: #777;
 }
+
 .section-four {
     background: #888;
 }
+
 /* ----------------------------- */
 /* ---------- DONATE ------------*/
 /* ----------------------------- */
@@ -311,7 +322,7 @@ q {
 }
 
 #jumbotron {
-    margin-bottom: 100px;
+    margin-bottom:10%;
     max-width: 100%;
 }
 
@@ -321,7 +332,6 @@ footer {
     height: 100px;
     background: #333;
 }
-
 
 main {
     font: 400 1.4vw/1.6em 'sans-serif';
@@ -338,8 +348,6 @@ main p {
 main div {
     width: 50%;
 }
-
-
 
 footer ul {}
 
