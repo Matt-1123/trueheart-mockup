@@ -181,31 +181,32 @@ section {
 }
 
 h3 {
+    font: 400 1.4em/1.5em 'Sanchez', 'sans-serif';
     margin-bottom: 2%;
 }
 
-#section-one {
-    background: #666;
-}
-
-#section-two {
+.section-one {
     background: #555;
 }
 
-#section-three {
+.section-two {
+    background: #666;
+}
+
+.section-three {
     background: #777;
 }
 
-#section-four {
+.section-four {
     background: #888;
 }
 
 /* ----------------------------- */
 /* ---------- DONATE ------------*/
 /* ----------------------------- */
-q {
-    font-style: italic;
-}
+
+
+
 
 /* ----------------------------- */
 /* ---------- WIREFRAME----------*/
