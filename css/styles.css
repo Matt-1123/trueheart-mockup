@@ -286,23 +286,22 @@ section {
 }
 
 h3 {
-    font: 400 1.4em/1.5em 'Sanchez', 'sans-serif';
     margin-bottom: 2%;
 }
 
-.section-one {
+#section-one {
     background: #666;
 }
 
-.section-two {
+#section-two {
     background: #555;
 }
 
-.section-three {
+#section-three {
     background: #777;
 }
 
-.section-four {
+#section-four {
     background: #888;
 }
 

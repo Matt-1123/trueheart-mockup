@@ -12,14 +12,13 @@
     /* ----------------------------- */
     /* ----------- MAIN -----------*/
     /* ----------------------------- */
-
     .img-section {
         display: none;
     }
 
     .section-text {
         text-align: center;
-        width: 100%;transition: all 150ms linear;
+        width: 100%;
         transition: all 150ms linear;
     }
 
@@ -41,7 +40,6 @@
     /* ----------------------------- */
     /* ----------- BIO -----------*/
     /* ----------------------------- */
-
     .bio {
         width: 90%;
     }
@@ -57,8 +55,6 @@
         display: none;
         transition: all 150ms linear;
     }
-
-
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
@@ -102,15 +98,18 @@
     /* ----------------------------- */
     /* ----------- MAIN -----------*/
     /* ----------------------------- */
-
     .img-section {
         display: block;
         width: 100%;
         text-align: center;
         padding: 10px;
+
     }
+
     .img-section img {
-        max-width: 50%;
+        max-width: 60%;
+        z-index: -10;
+        transition: all 150ms linear;
     }
 
     .section-text {
@@ -123,14 +122,17 @@
         width: 95%;
         margin: 0 auto;
         font: 100 4.5vw/1.6em 'Quicksand';
+        transition: all 150ms linear;
+
     }
 
     .section-text h3 {
         font: 600 6vw/1.6em 'Sanchez';
         display: block;
         margin-bottom: 8px;
-    }
+        transition: all 150ms linear;
 
+    }
 
     /* ----------------------------- */
     /* ----------- BIO -----------*/
@@ -156,13 +158,11 @@
     }
 }
 
-
 @media screen and (min-width: 481px) and (max-width: 640px) {
 
     /* ----------------------------- */
     /* ----------- MAIN -----------*/
     /* ----------------------------- */
-
     .section-text p {
         width: 95%;
         margin: 0 auto;
@@ -174,14 +174,9 @@
         display: block;
         margin-bottom: 8px;
     }
-
 }
 
-
 @media screen and (min-width: 641px) and (max-width: 750px) {
-
-
-
     .section-text p {
         width: 95%;
         margin: 0 auto;
@@ -193,8 +188,6 @@
         display: block;
         margin-bottom: 8px;
     }
-
-
 
     /* ----------------------------- */
     /* ----------- BIO -----------*/
@@ -255,6 +248,7 @@
         padding: 10px;
     }
 }
+
 @media screen and (min-width: 1081px) and (max-width: 1366px) {
     .section-text p {
         font: 100 2vw/1.6em 'Quicksand';
@@ -265,5 +259,4 @@
         display: block;
         margin-bottom: 8px;
     }
-
 }
