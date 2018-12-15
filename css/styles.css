@@ -14,7 +14,6 @@ html, body {
 }
 
 body {
-    background: url('../img/particles-bg.png');
     width: 100%;
 }
 
@@ -170,14 +169,30 @@ ul li:hover ul {
 /* ----------------------------- */
 /* ------------ MAIN ------------*/
 /* ----------------------------- */
-section {
-    font: 100 2vw/1.6em 'Quicksand', 'sans-serif';
+.section-text {
+    font: 100 1.6vw/1.6em 'Quicksand', 'sans-serif';
     margin: 15px auto;
 }
 
 .section-text {
     padding: 10px;
+    text-align: left;
 }
+
+h3, .section-text p  {
+    margin:0;
+}
+
+.section-one h3, .section-three p {
+}
+
+#section-one > div:nth-child(1) > h3:nth-child(1),
+#section-one > div:nth-child(1) > p,
+#section-three > div:nth-child(1) > h3:nth-child(1),
+#section-three > div:nth-child(1) > p:nth-child(2) {
+    padding-left: 12%;
+}
+
 
 .img-section img {
     border-radius: 50%;
@@ -185,8 +200,11 @@ section {
 }
 
 h3 {
-    font: 600 4vw/1.5em 'Sanchez';
+    font: 600 2.5vw/1.5em 'Sanchez';
     margin-bottom: 2%;
+}
+#section-one, #section-two, #section-three, #section-four {
+    margin-bottom: 5%;
 }
 
 #section-one {
@@ -240,6 +258,20 @@ main div {
 
 footer ul {}
 
-    .fab {
-        font-size: 2em;
-    }
+.fab {
+    font-size: 2em;
+}
+
+/* ----------------------------- */
+/* ------- WHAT WE DO  ----------*/
+/* ----------------------------- */
+
+.wwd-list {
+    font: 100 1.2em/1.2em 'Serif';
+}
+
+.section-text li {
+    display: block;
+    font-size: 16px;
+    line-height: normal;
+}
