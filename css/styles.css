@@ -71,7 +71,6 @@ nav a {
 
 ul {
     margin-right: 20px
-
 }
 
 #donate a {
@@ -100,7 +99,6 @@ ul {
 ul li {
     display: inline;
     padding: 5px 5px 5px 25px;
-
     position: relative;
 }
 
@@ -169,15 +167,11 @@ ul li:hover ul {
     width: 100%;
 }
 
-hr {
-    width: 85%;
-}
-
 /* ----------------------------- */
 /* ------------ MAIN ------------*/
 /* ----------------------------- */
 section {
-    font: 100 1.2em/1.5em 'Quicksand', 'sans-serif';
+    font: 100 2vw/1.6em 'Quicksand', 'sans-serif';
     margin: 15px auto;
 }
 
@@ -214,9 +208,6 @@ h3 {
 /* ----------------------------- */
 /* ---------- DONATE ------------*/
 /* ----------------------------- */
-/* ----------------------------- */
-/* ---------- WIREFRAME----------*/
-/* ----------------------------- */
 #jumbotron, footer {
     text-align: center;
     margin: 0 auto;
@@ -235,10 +226,7 @@ footer {
 }
 
 main {
-    font: 400 1.4vw/1.6em 'sans-serif';
     text-align: center;
-    margin: 0 auto;
-    /* width: 70%; */
 }
 
 main p {
@@ -252,38 +240,6 @@ main div {
 
 footer ul {}
 
-.fab {
-    font-size: 2em;
-}
-
-/* ----------------------------- */
-/* ---------- BIOS --------------*/
-/* ----------------------------- */
-.content-wrapper {
-    background: #cacac5;
-    margin: auto;
-}
-
-.another-wrapper {
-    width: 90%;
-    margin: 0 10%;
-}
-
-.bio {
-    text-align: center;
-    width: 28%;
-    margin: 8px;
-    background: #ababa0;
-    transition: all 150ms linear;
-}
-
-.bio img {
-    border-radius: 50%;
-    max-width: 100%;
-    padding: 10px;
-}
-
-.bio p {
-    font: 400 1.5vw/1.6em 'Sanchez';
-    padding: 4%;
-}
+    .fab {
+        font-size: 2em;
+    }

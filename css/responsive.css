@@ -36,25 +36,6 @@
         margin-bottom: 8px;
         transition: all 150ms linear;
     }
-
-    /* ----------------------------- */
-    /* ----------- BIO -----------*/
-    /* ----------------------------- */
-    .bio {
-        width: 90%;
-    }
-
-    .bio img {
-        border-radius: 50%;
-        max-width: 90%;
-        margin: 0 auto;
-        transition: all 150ms linear;
-    }
-
-    .bio p, h3 {
-        display: none;
-        transition: all 150ms linear;
-    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 550px) {
@@ -136,29 +117,6 @@
         transition: all 150ms linear;
 
     }
-
-    /* ----------------------------- */
-    /* ----------- BIO -----------*/
-    /* ----------------------------- */
-    .content-wrapper {
-        margin: 0 8%;
-    }
-
-    .bio {
-        width: 90%;
-    }
-
-    .bio img {
-        float: left;
-        border-radius: 50%;
-        max-width: 40%;
-        transition: all 150ms linear;
-    }
-
-    .bio p, .bio h3 {
-        font: 100 1.2rem/1.6em 'Sanchez';
-        transition: all 150ms linear;
-    }
 }
 
 
@@ -193,30 +151,6 @@
         display: block;
         margin-bottom: 8px;
     }
-
-    /* ----------------------------- */
-    /* ----------- BIO -----------*/
-    /* ----------------------------- */
-    .content-wrapper {
-        margin: 0 6%;
-    }
-
-    .bio {
-        text-align: center;
-        width: 40%;
-        margin: 10px;
-        background: #ababa0;
-    }
-
-    .bio img {
-        border-radius: 50%;
-        max-width: 75%;
-    }
-
-    .bio p, .bio h3 {
-        font: 100 2vw/1.6em 'Sanchez';
-        padding: 10px;
-    }
 }
 
 @media screen and (min-width: 751px) and (max-width: 1080px) {
@@ -232,36 +166,15 @@
         margin-bottom: 8px;
     }
 
-    .content-wrapper {
-        margin: 0 6%;
-    }
-
-    .bio {
-        text-align: center;
-        width: 40%;
-        margin: 10px;
-        background: #ababa0;
-    }
-
-    .bio img {
-        border-radius: 50%;
-        max-width: 75%;
-    }
-
-    .bio p, .bio h3 {
-        font: 100 2vw/1.6em 'Sanchez';
-        padding: 10px;
-    }
 }
 
 @media screen and (min-width: 1081px) and (max-width: 1366px) {
     .section-text p {
-        font: 100 2vw/1.6em 'Quicksand';
+        font-size: 2vw;
     }
 
     .section-text h3 {
-        font-size: 4vw;
-        font: 600 4vw/1.6em 'Sanchez';
+        font-size: 3.4vw;
         display: block;
         margin-bottom: 8px;
     }
