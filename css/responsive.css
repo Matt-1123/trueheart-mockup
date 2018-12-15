@@ -260,6 +260,7 @@
     }
 
     .section-text h3 {
+        font-size: 4vw;
         font: 600 4vw/1.6em 'Sanchez';
         display: block;
         margin-bottom: 8px;

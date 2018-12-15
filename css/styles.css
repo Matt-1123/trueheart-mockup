@@ -42,7 +42,6 @@ ul {
 /* ----------------------------- */
 /* ----------- HEADER --------------*/
 /* ----------------------------- */
-
 header p {
     padding: 0 0 0 50px;
     font-size: 28px;
@@ -57,15 +56,6 @@ nav {
     text-align: right;
     background: #444;
     z-index: 10000;
-    margin-right: 10%;
-}
-
-nav a {
-    color: #eee;
-}
-
-#donate a {
-    color: #444;
 }
 
 nav img {
@@ -73,6 +63,19 @@ nav img {
     float: left;
     height: 65px;
     margin: 5px;
+}
+
+nav a {
+    color: #eee;
+}
+
+ul {
+    margin-right: 20px
+
+}
+
+#donate a {
+    color: #444;
 }
 
 #donate {
@@ -90,9 +93,14 @@ nav img {
     z-index: -1;
 }
 
+#mobile-nav {
+    display: none;
+}
+
 ul li {
     display: inline;
-    padding: 5px;
+    padding: 5px 5px 5px 25px;
+
     position: relative;
 }
 
@@ -172,42 +180,40 @@ section {
     font: 100 1.2em/1.5em 'Quicksand', 'sans-serif';
     margin: 15px auto;
 }
+
 .section-text {
     padding: 10px;
 }
+
 .img-section img {
     border-radius: 50%;
     padding: 10px;
 }
 
 h3 {
-    font: 400 1.4em/1.5em 'Sanchez', 'sans-serif';
+    font: 600 4vw/1.5em 'Sanchez';
     margin-bottom: 2%;
 }
 
-.section-one {
+#section-one {
     background: #555;
 }
 
-.section-two {
+#section-two {
     background: #666;
 }
 
-.section-three {
+#section-three {
     background: #777;
 }
 
-.section-four {
+#section-four {
     background: #888;
 }
 
 /* ----------------------------- */
 /* ---------- DONATE ------------*/
 /* ----------------------------- */
-
-
-
-
 /* ----------------------------- */
 /* ---------- WIREFRAME----------*/
 /* ----------------------------- */
@@ -217,7 +223,7 @@ h3 {
 }
 
 #jumbotron {
-    margin-bottom:10%;
+    margin-bottom: 10%;
     max-width: 100%;
 }
 
