@@ -156,7 +156,6 @@
 @media screen and (min-width: 751px) and (max-width: 1080px) {
     .section-text p {
         width: 95%;
-        margin: 0 auto;
         font: 100 2.5vw/1.6em 'Quicksand';
     }
 

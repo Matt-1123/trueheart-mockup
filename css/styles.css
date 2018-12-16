@@ -38,6 +38,11 @@ ul {
     position: relative;
 }
 
+h3, p {
+    margin: 0;
+    padding: 0;
+}
+
 /* ----------------------------- */
 /* ----------- HEADER --------------*/
 /* ----------------------------- */
@@ -170,29 +175,24 @@ ul li:hover ul {
 /* ------------ MAIN ------------*/
 /* ----------------------------- */
 .section-text {
-    font: 100 1.6vw/1.6em 'Quicksand', 'sans-serif';
+    font: 100 1.6vw/1.8em 'Quicksand', 'sans-serif';
     margin: 15px auto;
-}
-
-.section-text {
     padding: 10px;
     text-align: left;
 }
 
-h3, .section-text p  {
-    margin:0;
+h3, .section-text p {
+    margin: 0;
 }
 
-.section-one h3, .section-three p {
-}
+.section-one h3, .section-three p {}
 
-#section-one > div:nth-child(1) > h3:nth-child(1),
-#section-one > div:nth-child(1) > p,
-#section-three > div:nth-child(1) > h3:nth-child(1),
-#section-three > div:nth-child(1) > p:nth-child(2) {
+#section-one h3,
+#section-one p,
+#section-three h3,
+#section-three p {
     padding-left: 12%;
 }
-
 
 .img-section img {
     border-radius: 50%;
@@ -203,6 +203,7 @@ h3 {
     font: 600 2.5vw/1.5em 'Sanchez';
     margin-bottom: 2%;
 }
+
 #section-one, #section-two, #section-three, #section-four {
     margin-bottom: 5%;
 }
@@ -265,7 +266,6 @@ footer ul {}
 /* ----------------------------- */
 /* ------- WHAT WE DO  ----------*/
 /* ----------------------------- */
-
 .wwd-list {
     font: 100 1.2em/1.2em 'Serif';
 }
