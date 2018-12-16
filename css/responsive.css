@@ -25,7 +25,7 @@
     .section-text p {
         padding: 5px;
         width: 95%;
-        margin: 0 auto;
+        margin: 0;
         font: 100 5vw/1.6em 'Quicksand';
         transition: all 150ms linear;
     }
@@ -33,7 +33,6 @@
     .section-text h3 {
         font: 600 6vw/1.6em 'Sanchez';
         display: block;
-        margin-bottom: 8px;
         transition: all 150ms linear;
     }
 }
@@ -92,31 +91,34 @@
 
     .img-section img {
         max-width: 60%;
-        z-index: -10;
         transition: all 150ms linear;
     }
 
     .section-text {
         text-align: center;
-        width: 100%
+        width: 100%;
+        transition: all 150ms linear;
     }
 
     .section-text p {
         padding: 10px;
         width: 95%;
-        margin: 0 auto;
         font: 100 4.5vw/1.6em 'Quicksand';
         transition: all 150ms linear;
-
     }
 
     .section-text h3 {
         font: 600 6vw/1.6em 'Sanchez';
         display: block;
-        margin-bottom: 8px;
         transition: all 150ms linear;
-
     }
+
+    #section-one h3,
+#section-one p,
+#section-three h3,
+#section-three p {
+    padding-left: 0;
+}
 }
 
 
@@ -128,7 +130,6 @@
     /* ----------------------------- */
     .section-text p {
         width: 95%;
-        margin: 0 auto;
         font: 100 3vw/1.6em 'Quicksand';
     }
 
@@ -142,7 +143,6 @@
 @media screen and (min-width: 641px) and (max-width: 750px) {
     .section-text p {
         width: 95%;
-        margin: 0 auto;
         font: 100 3vw/1.6em 'Quicksand';
     }
 
