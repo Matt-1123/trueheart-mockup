@@ -20,12 +20,13 @@
         text-align: center;
         width: 100%;
         transition: all 150ms linear;
+        padding: 15px;
+        margin: 0;
     }
 
     .section-text p {
-        padding: 5px;
         width: 95%;
-        margin: 0 auto;
+        margin: 0;
         font: 100 5vw/1.6em 'Quicksand';
         transition: all 150ms linear;
     }
@@ -33,8 +34,14 @@
     .section-text h3 {
         font: 600 6vw/1.6em 'Sanchez';
         display: block;
-        margin-bottom: 8px;
         transition: all 150ms linear;
+    }
+
+    #section-one h3,
+    #section-one p,
+    #section-three h3,
+    #section-three p {
+        padding: 0;
     }
 }
 
@@ -43,7 +50,8 @@
         display: block;
         cursor: pointer;
     }
-    #desktop-nav{
+
+    #desktop-nav {
         z-index: -1;
         position: absolute;
         top: 100%;
@@ -54,9 +62,11 @@
         text-align: center;
         transition: left 200ms linear;
     }
-    #desktop-nav.show{
-      left: 0%;
+
+    #desktop-nav.show {
+        left: 0%;
     }
+
     #desktop-nav li {
         width: 100%;
         display: block;
@@ -66,17 +76,21 @@
         background: #FAF3DD;
         font-family: 'Quicksand', 'sans-serif'
     }
-    .subnav{
-      display: none;
+
+    .subnav {
+        display: none;
     }
-    nav a{
-      color: #444;
+
+    nav a {
+        color: #444;
     }
+
     ul li:hover ul {
         display: none;
     }
-    .hover-border::after{
-      display: none;
+
+    .hover-border::after {
+        display: none;
     }
 
     /* ----------------------------- */
@@ -87,85 +101,85 @@
         width: 100%;
         text-align: center;
         padding: 10px;
-
     }
 
     .img-section img {
         max-width: 60%;
-        z-index: -10;
         transition: all 150ms linear;
     }
 
     .section-text {
         text-align: center;
-        width: 100%
+        padding: 0 20px;
+        width: 100%;
+        transition: all 150ms linear;
     }
 
     .section-text p {
-        padding: 10px;
-        width: 95%;
-        margin: 0 auto;
+        width: 100%;
         font: 100 4.5vw/1.6em 'Quicksand';
         transition: all 150ms linear;
-
     }
 
     .section-text h3 {
         font: 600 6vw/1.6em 'Sanchez';
         display: block;
-        margin-bottom: 8px;
         transition: all 150ms linear;
+    }
 
+    #section-one h3,
+    #section-one p,
+    #section-three h3,
+    #section-three p {
+        padding-left: 0;
     }
 }
 
-
 @media screen and (min-width: 551px) and (max-width: 640px) {
-
 
     /* ----------------------------- */
     /* ----------- MAIN -----------*/
     /* ----------------------------- */
     .section-text p {
         width: 95%;
-        margin: 0 auto;
         font: 100 3vw/1.6em 'Quicksand';
     }
 
     .section-text h3 {
         font: 600 4vw/1.6em 'Sanchez';
         display: block;
-        margin-bottom: 8px;
+
     }
 }
 
 @media screen and (min-width: 641px) and (max-width: 750px) {
     .section-text p {
         width: 95%;
-        margin: 0 auto;
         font: 100 3vw/1.6em 'Quicksand';
     }
 
     .section-text h3 {
         font: 600 4vw/1.6em 'Sanchez';
         display: block;
-        margin-bottom: 8px;
+
     }
 }
 
 @media screen and (min-width: 751px) and (max-width: 1080px) {
+
+    .section-text {
+        text-align: left;
+    }
     .section-text p {
         width: 95%;
-        margin: 0 auto;
         font: 100 2.5vw/1.6em 'Quicksand';
     }
 
     .section-text h3 {
         font: 600 3.5vw/1.6em 'Sanchez';
         display: block;
-        margin-bottom: 8px;
-    }
 
+    }
 }
 
 @media screen and (min-width: 1081px) and (max-width: 1366px) {
@@ -176,6 +190,7 @@
     .section-text h3 {
         font-size: 3.4vw;
         display: block;
-        margin-bottom: 8px;
+
     }
+
 }

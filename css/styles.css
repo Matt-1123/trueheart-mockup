@@ -14,7 +14,6 @@ html, body {
 }
 
 body {
-    background: url('../img/particles-bg.png');
     width: 100%;
 }
 
@@ -37,6 +36,11 @@ a {
 ul {
     list-style: none;
     position: relative;
+}
+
+h3, p {
+    margin: 0;
+    padding: 0;
 }
 
 /* ----------------------------- */
@@ -70,7 +74,8 @@ nav a {
 }
 
 ul {
-    margin-right: 20px
+    margin-right: 5px;
+    padding: 0;
 }
 
 #donate a {
@@ -98,7 +103,7 @@ ul {
 
 ul li {
     display: inline;
-    padding: 5px 5px 5px 25px;
+    padding: 5px;
     position: relative;
 }
 
@@ -139,7 +144,6 @@ ul li:hover ul {
 }
 
 .hover-border {
-    /* font-family: 'Quicksand', sans-serif; */
     font: 400 1.6em/1.5em 'Quicksand', 'sans-serif';
     position: relative;
     display: inline;
@@ -170,14 +174,18 @@ ul li:hover ul {
 /* ----------------------------- */
 /* ------------ MAIN ------------*/
 /* ----------------------------- */
-section {
-    font: 100 2vw/1.6em 'Quicksand', 'sans-serif';
+.section-text {
+    font: 100 1.6vw/1.8em 'Quicksand', 'sans-serif';
     margin: 15px auto;
+    padding: 10px 0;
+    text-align: left;
 }
 
-.section-text {
-    padding: 10px;
+h3, .section-text p {
+    margin: 0;
 }
+
+.section-one h3, .section-three p {}
 
 .img-section img {
     border-radius: 50%;
@@ -185,8 +193,19 @@ section {
 }
 
 h3 {
-    font: 600 4vw/1.5em 'Sanchez';
+    font: 600 2.5vw/1.5em 'Sanchez';
     margin-bottom: 2%;
+}
+
+#section-one h3,
+#section-one p,
+#section-three h3,
+#section-three p {
+    padding-left: 12%;
+}
+
+#section-one, #section-two, #section-three, #section-four {
+    margin-bottom: 3%;
 }
 
 #section-one {
@@ -302,4 +321,16 @@ footer h1 {
   height: 41px;
   margin: 22px;
   width: 8%;
+}
+/* ----------------------------- */
+/* ------- WHAT WE DO  ----------*/
+/* ----------------------------- */
+.wwd-list {
+    font: 100 1.2em/1.2em 'Serif';
+}
+
+.section-text li {
+    display: block;
+    font-size: 16px;
+    line-height: normal;
 }
