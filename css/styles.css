@@ -185,16 +185,16 @@ h3, .section-text p {
     margin: 0;
 }
 
+h3 {
+    font: 600 2.5vw/1.5em 'Sanchez';
+    margin-bottom: 2%;
+}
+
 .section-one h3, .section-three p {}
 
 .img-section img {
     border-radius: 50%;
     padding: 10px;
-}
-
-h3 {
-    font: 600 2.5vw/1.5em 'Sanchez';
-    margin-bottom: 2%;
 }
 
 #section-one h3,
@@ -222,6 +222,40 @@ h3 {
 
 #section-four {
     background: #888;
+}
+
+/* ----------------------------- */
+/* -------- PARTNERS ------------*/
+/* ----------------------------- */
+section.partner {
+    width: 100%;
+    height: auto;
+    padding: 0 15%;
+    margin: auto;
+}
+
+.partner-img img {
+    max-width: 90%;
+}
+
+section.partner img {
+    border-radius: 0;
+}
+
+.partner.lg-logo {
+    width: 60%;
+}
+
+.section-one .img-section {
+    width: 25%;
+}
+
+.section-two .img-section {
+    width: 25%
+}
+
+.section-three .img-section {
+    width: 25%;
 }
 
 /* ----------------------------- */
@@ -257,13 +291,14 @@ main div {
     width: 50%;
 }
 
-//* FOOTER *//
-
+/* ----------------------------- */
+/* ---------- FOOTER ------------*/
+/* ----------------------------- */
 footer {}
 
 .col1 {
     color: white;
-    width:25%;
+    width: 25%;
     margin: 10px;
 }
 
@@ -271,7 +306,7 @@ footer {}
     color: #888;
     font-size: 20px;
     text-align: left;
-    width:22%;
+    width: 22%;
     font: 1em 'Quicksand';
 }
 
@@ -279,15 +314,16 @@ footer {}
     color: #888;
     font-size: 20px;
     text-align: left;
-    width:25%;
+    width: 25%;
     font: 1em 'Quicksand';
     margin: 32px 0px 0px 0px;
 }
+
 footer h1 {
     color: #fff;
     font: 1em 'Sanchez';
     margin-bottom: 0px;
-  }
+}
 
 .fab {
     border-radius: 50%;
@@ -298,30 +334,31 @@ footer h1 {
     height: 35px;
     text-align: center;
     padding: 6px;
-  }
+}
 
-  .fab:hover {
+.fab:hover {
     background: #0090ff;
-  }
+}
 
-  a {
+a {
     color: #888;
-  }
+}
 
-  a:hover {
+a:hover {
     color: #0090ff;
-  }
+}
 
-  #socialicons{
+#socialicons {
     padding: 5px;
-  }
+}
 
 .vl {
-  border-left: 1px solid #666;
-  height: 41px;
-  margin: 22px;
-  width: 8%;
+    border-left: 1px solid #666;
+    height: 41px;
+    margin: 22px;
+    width: 8%;
 }
+
 /* ----------------------------- */
 /* ------- WHAT WE DO  ----------*/
 /* ----------------------------- */

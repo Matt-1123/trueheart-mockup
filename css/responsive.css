@@ -32,7 +32,7 @@
     }
 
     .section-text h3 {
-        font: 600 6vw/1.6em 'Sanchez';
+        font-size: 6vw;
         display: block;
         transition: all 150ms linear;
     }
@@ -60,7 +60,7 @@
         padding: 0;
         margin: 0;
         text-align: center;
-        transition: left 200ms linear;
+        transition: left 200ms linear;`
     }
 
     #desktop-nav.show {
@@ -122,7 +122,7 @@
     }
 
     .section-text h3 {
-        font: 600 6vw/1.6em 'Sanchez';
+        font-size: 6vw;
         display: block;
         transition: all 150ms linear;
     }
@@ -144,12 +144,6 @@
         width: 95%;
         font: 100 3vw/1.6em 'Quicksand';
     }
-
-    .section-text h3 {
-        font: 600 4vw/1.6em 'Sanchez';
-        display: block;
-
-    }
 }
 
 @media screen and (min-width: 641px) and (max-width: 750px) {
@@ -159,7 +153,7 @@
     }
 
     .section-text h3 {
-        font: 600 4vw/1.6em 'Sanchez';
+        font-size: 4vw;
         display: block;
 
     }
@@ -176,11 +170,19 @@
     }
 
     .section-text h3 {
-        font: 600 3.5vw/1.6em 'Sanchez';
+        font-size:3.5vw;
         display: block;
 
     }
 }
+
+/* ----------------------------- */
+/* -------- PARTNERS ------------*/
+/* ----------------------------- */
+
+/* .section-one, .section-two, .section-three, .img-section {
+width: 100%;
+} */
 
 @media screen and (min-width: 1081px) and (max-width: 1366px) {
     .section-text p {
