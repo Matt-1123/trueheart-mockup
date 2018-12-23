@@ -214,8 +214,47 @@ h3 {
 }
 
 #jumbotron {
-    margin-bottom: 10%;
+    background-image: url("../img/index-main.jpg");
+    height: 600px;
+    position: relative;
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* margin-bottom: 10%; */
     max-width: 100%;
+}
+.img-title{
+	position: absolute;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+  font-family: 'Quicksand', sans-serif;
+	font-size:34px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+.img-title .border{
+	background: #111;
+	color: #fff;
+	padding: 20px;
+  opacity: 0.75;
+}
+.img-quote{
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.img-quote .quote-border{
+  background: #FFA800;
+  color: #fff;
+  padding: 20px;
+  opacity: 0.75;
 }
 
 footer {
@@ -243,3 +282,42 @@ footer ul {}
     .fab {
         font-size: 2em;
     }
+
+/* ----------------------------- */
+/* ---------- ABOUT ------------*/
+/* ----------------------------- */
+#team-list-container{
+  width: 100%;
+  border: 1px solid black;
+}
+#team-list{
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: left;
+  width: 50%;
+  display: block;
+  position: relative;
+  float: left;
+}
+
+#positions{
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: left;
+  width: 50%;
+  float: left;
+  display: block;
+  position: relative;
+}
+#team-list li{
+  display: inline-block;
+  float: left;
+  list-style: circle;
+}
+#positions li{
+  display: inline-block;
+  float: left;
+  list-style: circle;
+}
