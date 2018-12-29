@@ -88,7 +88,7 @@ nav a {
 }
 
 ul {
-    font: 100 1.2em/1.2em 'Raleway', 'serif';
+    font: 100 1.2em/1.2em 'Raleway', 'sans-serif';
     margin-right: 15px;
     padding: 0;
     letter-spacing: .12em;
@@ -153,6 +153,7 @@ ul ul li a {
 ul ul li {
     display: block;
     width: 140px;
+    transition: all 350ms ease;
 }
 
 ul ul li:hover{
