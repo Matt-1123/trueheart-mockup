@@ -16,9 +16,9 @@ body {
     margin: 0;
 }
 
-body {
-    width: 100%;
-}
+/*html {
+    height: 100%;
+}*/
 
 img {
     max-width: 100%;
@@ -95,10 +95,80 @@ ul {
 }
 
 #donate {
-    background: #078;
+    background: #F09080;
     color: #eee;
     padding: 10px;
     border-radius: 2px;
+    /*transition: all 2s ease-in-out;*/
+}
+
+#donate:hover {
+    background: linear-gradient(to right, #E29587, #D66D00);
+    background-size: 300% 300%;
+    -webkit-animation: donateGradient 5s ease infinite;
+    -moz-animation: donateGradient 5s ease infinite;
+    -o-animation: donateGradient 5s ease infinite;
+    animation: donateGradient 5s ease infinite;
+}
+
+@-webkit-keyframes donateGradient {
+    0% {
+        background-position: 0% 54%
+    }
+
+    50% {
+        background-position: 100% 47%
+    }
+
+    100% {
+        background-position: 0% 54%
+    }
+
+}
+
+@-moz-keyframes donateGradient {
+    0% {
+        background-position: 0% 54%
+    }
+
+    50% {
+        background-position: 100% 47%
+    }
+
+    100% {
+        background-position: 0% 54%
+    }
+
+}
+
+@-o-keyframes donateGradient {
+    0% {
+        background-position: 0% 54%
+    }
+
+    50% {
+        background-position: 100% 47%
+    }
+
+    100% {
+        background-position: 0% 54%
+    }
+
+}
+
+@keyframes donateGradient {
+    0% {
+        background-position: 0% 54%
+    }
+
+    50% {
+        background-position: 100% 47%
+    }
+
+    100% {
+        background-position: 0% 54%
+    }
+
 }
 
 #hamburger {
@@ -127,8 +197,8 @@ ul ul {
     border-radius: 2px;
     position: absolute;
     text-align: left;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     left: 0;
     top: 100%;
     list-style: none;
@@ -136,10 +206,10 @@ ul ul {
     padding: 5px;
 }
 
-#donate>.subnav{
+#donate>.subnav {
     position: absolute;
     left: -38%;
-    width:auto;
+    width: auto;
 }
 
 ul ul li a {
@@ -156,11 +226,10 @@ ul ul li {
     transition: all 350ms ease;
 }
 
-ul ul li:hover{
+ul ul li:hover {
     background: #FFA800;
     cursor: pointer;
 }
-
 
 ul li:hover ul {
     display: block;
@@ -200,7 +269,8 @@ ul li:hover ul {
     transition: all 250ms ease-out;
 }
 
-.hover-border:hover:after, .hover-border:hover:before {
+.hover-border:hover:after,
+.hover-border:hover:before {
     left: 0;
     width: 100%;
 }
@@ -307,62 +377,58 @@ section.partner img {
 /* ---------- DONATE ------------*/
 
 /* ----------------------------- */
-#jumbotron,
-footer {
+#jumbotron {
     text-align: center;
     margin: 0 auto;
 }
 
 #jumbotron {
-    background-image: url("../img/index-main.jpg");
+
+    /*background-image: url("../img/index-main.jpg");*/
     height: 600px;
     position: relative;
     opacity: 0.75;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    /* margin-bottom: 10%; */
+    background-attachment: fixed;    /* margin-bottom: 10%; */
     max-width: 100%;
-}
-.img-title{
-	position: absolute;
-	top: 45%;
-	width: 100%;
-	text-align: center;
-	color: #fff;
-  font-family: 'Quicksand', sans-serif;
-	font-size:34px;
-	letter-spacing: 8px;
-	text-transform: uppercase;
-}
-.img-title .border{
-	background: #111;
-    border: 2px solid #999;
-	color: #fff;
-	padding: 20px;
-  opacity: 0.75;
-}
-.img-quote{
-  position: absolute;
-  top: 60%;
-  width: 100%;
-  text-align: center;
-  font-size: 20px;
-  font-family: sans-serif;
-}
-.img-quote .quote-border{ 
-  background: #FFA800;
-  color: #fff;
-  padding: 20px;
-  opacity: 0.75;
 }
 
-footer {
-    margin: 0;
-    max-width: 100%;
-    height: 100px;
-    background: #333;
+.img-title {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 34px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.img-title .border {
+    background: #111;
+    border: 2px solid #999;
+    color: #fff;
+    padding: 20px;
+    opacity: 0.75;
+}
+
+.img-quote {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.img-quote .quote-border {
+    background: #FFA800;
+    color: #fff;
+    padding: 20px;
+    opacity: 0.75;
 }
 
 main {
@@ -384,60 +450,63 @@ main div {
 
 /* ----------------------------- */
 footer {
+    background: #444;
+    padding: 20px 10%;
+    text-align: center;
+}
+
+footer a {
+    color: #888;
 }
 
 .col1 {
     color: white;
-    width: 25%;
-    margin: 10px;
+    width: 33%;    
+    /*padding: 2%;*/
 }
 
 .col2 {
     color: #888;
     font-size: 20px;
-    text-align: left;
-    width: 22%;
-    font: 1em 'Quicksand';
+    width: 34%;
+    font-size: 1em;
+    font-family: 'Quicksand';
+    padding: 1%;
+    border-right: 1px solid #678;
+    border-left: 1px solid #678;
+}
+
+.col2 p {
+    color: #fff;
+    font-family: 'Sanchez';
+    margin-bottom: 0px;
 }
 
 .col3 {
     color: #888;
-    font-size: 20px;
-    text-align: left;
-    width: 25%;
-    font: 1em 'Quicksand';
-    padding: 3%;
-
-}
-
-footer h1 {
-    color: #fff;
-    font: 1em 'Sanchez';
-    margin-bottom: 0px;
+    font-size: 1.25rem;
+    width: 33%;
+    font-family: 'Quicksand';
+    padding: 2%;
+     /*border-right: 2px solid #678;*/
 }
 
 .fab {
-    border-radius: 5px;
+    border-radius: 50%;
     font-size: 1.5em;
     font-weight: 600;
-    color: #eee;
-    background: #888;
+    color: #eee;    /*background: #888;*/
     width: 35px;
     height: 35px;
     text-align: center;
-    padding: 6px;
+    padding: 10px;
     cursor: pointer;
 }
 
-.fa-instagram:hover {
+/*.fa-instagram:hover {
     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);    
-}
-
-
-a {
-    color: #888;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
 }
 
 .fa-facebook-f:hover {
@@ -446,17 +515,10 @@ a {
 
 .fa-twitter:hover {
     background: #1da1f2;
-}
+}*/
 
-#socialicons {
-    padding: 5px;
-}
-
-.vl {
-    border-left: 1px solid #666;
-    height: 41px;
-    margin: 22px;
-    width: 8%;
+.socialicons {
+    padding: 10px;
 }
 
 /* ----------------------------- */
@@ -494,28 +556,30 @@ a {
     color: #eee;
 }
 
-#user-name {
+.user-name {
     font-size: 1.2em;
     color: #eee;
 }
 
-#comment {
+.comment {
     font: 100 .9em/1.4em 'sans-serif';
     color: #333;
     padding: 0 5px 5px 5px;
     margin-top: 5px;
 }
 
-#social-stream {
-    max-width: 100%;
-    margin: 0 auto;
-}
 .tile-wrap {
-    float:none;
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+}
+
+#social-stream {
+    float: none;
+    display: block;
     width: 80%;
     margin: 0 auto;
 }
-
 
 .social-tile {
     display: inline-block !important;
