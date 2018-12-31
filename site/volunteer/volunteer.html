@@ -2,179 +2,188 @@
 <html lang="en" dir='ltr'>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Volunteer &mdash; Tru Heart</title>
-    <link rel="stylesheet" href="../../css/styles.css">
-    <link rel="stylesheet" href="../../css/responsive.css">
-    <link rel="stylesheet" href="../../css/volunteer.css">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand|Sanchez|Lato|Roboto|Open+Sans|Kameron|Raleway" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Volunteer &mdash; Tru Heart</title>
+	<link rel="stylesheet" href="../../css/styles.css">
+	<link rel="stylesheet" href="../../css/responsive.css">
+	<link rel="stylesheet" href="../../css/volunteer.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand|Sanchez|Lato|Roboto|Open+Sans|Kameron|Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-    <!-- <script type="text/javascript">
-    $(function(){
+	<!-- <script type="text/javascript">
+	$(function(){
 
-      var navToggle = $('.nav-toggle');
-      var nav = $('#nav');
-      var navItem = $('#nav > li');
-      var subNav = $('.sub-nav'); // ul nested in navItem
+	  var navToggle = $('.nav-toggle');
+	  var nav = $('#nav');
+	  var navItem = $('#nav > li');
+	  var subNav = $('.sub-nav'); // ul nested in navItem
 
-      navToggle.on('click', function(){
-        navToggle.toggleClass("fa-times fa-bars");
-        nav.slideToggle(200).toggleClass('show');
+	  navToggle.on('click', function(){
+		navToggle.toggleClass("fa-times fa-bars");
+		nav.slideToggle(200).toggleClass('show');
 
-        // to-do: close all open subnavs
-      });
+		// to-do: close all open subnavs
+	  });
 
-      $(navItem).on('click', function(){
-        var el = $(this);
-        el.children('.sub-nav').slideToggle(200).toggleClass('show');
-        // toggle up and down arrow on nav item
-        setTimeout(function() {
-          el.toggleClass('expanded');
-        }, 200);
+	  $(navItem).on('click', function(){
+		var el = $(this);
+		el.children('.sub-nav').slideToggle(200).toggleClass('show');
+		// toggle up and down arrow on nav item
+		setTimeout(function() {
+		  el.toggleClass('expanded');
+		}, 200);
 
-        // close other open subnavs
-        // if(el.siblings().children('sub-nav').hasClass("show")){
-        //   el.siblings().children('sub-nav')
-        //     .removeClass("show");
-        //     .slideToggle(400);
-        // }
-      });
-    });
+		// close other open subnavs
+		// if(el.siblings().children('sub-nav').hasClass("show")){
+		//   el.siblings().children('sub-nav')
+		//     .removeClass("show");
+		//     .slideToggle(400);
+		// }
+	  });
+	});
 
-    </script> -->
+</script> -->
 </head>
 
 <header>
-    <nav>
+	<nav>
 
-        <img src="../../img/logo-header.png" alt="logo">
-        <ul id="desktop-nav">
+		<img src="../../img/logo-header.png" alt="logo">
+		<ul id="desktop-nav">
 
 
 
-            <li class="hover-border"><a href="">About</a>
-                <ul>
-                    <li><a href="../../index.html">Mission</a></li>
-                    <li><a href="../funds-raised/funds-raised.html">Funds Raised</a></li>
-                    <li><a href="../scholarship/scholarship.html">Scholarship</a></li>
-                    <li><a href="../partners/partners.html">Partners</a></li>
-                    <li><a href="../bios/bios.html">Bios</a></li>
-                </ul>
-            </li>
-            <li class="hover-border"><a href="">Events</a>
-                <ul>
-                    <li><a href="">Annual</a></li>
-                    <li><a href="">Recurring</a></li>
-                    <li><a href="">Upcoming</a></li>
-                </ul>
-            </li>
-            <li class="hover-border"><a href="">Get Involved</a>
-                <ul>
+			<li class="hover-border"><a href="">About</a>
+				<ul class="subnav">
+					<li><a href="../../index.html">Mission</a></li>
+					<li><a href="../funds-raised/funds-raised.html">Funds Raised</a></li>
+					<li><a href="../scholarship/scholarship.html">Scholarship</a></li>
+					<li><a href="../partners/partners.html">Partners</a></li>
+					<li><a href="../bios/bios.html">Bios</a></li>
+				</ul >
+			</li>
+			<li class="hover-border"><a href="">Events</a>
+				<ul class="subnav">
+					<li><a href="">Annual</a></li>
+					<li><a href="">Recurring</a></li>
+					<li><a href="">Upcoming</a></li>
+				</ul>
+			</li>
+			<li class="hover-border"><a href="">Get Involved</a>
+				<ul class="subnav">
 
-                    <li><a href="#">Volunteer</a></li>
-                    <li><a href="../social/social.html">Get Social</a></li>
-                </ul>
-            </li>
+					<li><a href="#">Volunteer</a></li>
+					<li><a href="../social/social.html">Get Social</a></li>
+				</ul>
+			</li>
 
-            <li class="hover-border" id="donate"><a href="">Donate</a>
-                <ul>
-                    <li>Give Once</li>
-                    <li>Give Monthly</li>
-                </ul>
-            </li>
-        </ul>
+			<li class="hover-border" id="donate"><a href="">Donate</a>
+				<ul class="subnav">
+					<li>Give Once</li>
+					<li>Give Monthly</li>
+				</ul>
+			</li>
+		</ul>
 
-        <ul id="mobile-nav">
-            <li><a href="">About</a></li>
-            <li><a href="">Events</a></li>
-            <li><a href="">Get Involved</a></li>
-            <li><a href="../bios/bios.html">Bios</a></li>
-        </ul>
-        <i class="fas fa-bars fa-3x nav-toggle" id='hamburger'></i>
-        <!-- <hr> -->
-    </nav>
+		<ul id="mobile-nav">
+			<li><a href="">About</a></li>
+			<li><a href="">Events</a></li>
+			<li><a href="">Get Involved</a></li>
+			<li><a href="../bios/bios.html">Bios</a></li>
+		</ul>
+		<i class="fas fa-bars fa-3x nav-toggle" id='hamburger'></i>
+		<!-- <hr> -->
+	</nav>
 </header>
 
 
 <div id="jumbotron">
-        <img src="https://picsum.photos/1350/600" alt="">
+	<img src="https://picsum.photos/1350/600" alt="">
 </div>
 
 
 
 <main>
-    <section id="section-one">
-        <div class="img-section">
-            <img src="https://picsum.photos/400/400" alt="">
-        </div>
-        <div class="section-text">
-            <h3>Heading</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque obcaecati eveniet nam. Ipsum deleniti tempora iure, beatae nesciunt distinctio error voluptatem officia repellat neque, maxime ea earum deserunt, libero</p>
+	<section id="section-one">
+		<div class="img-section">
+			<img src="https://picsum.photos/400/400" alt="">
+		</div>
+		<div class="section-text">
+			<h3>Heading</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque obcaecati eveniet nam. Ipsum deleniti tempora iure, beatae nesciunt distinctio error voluptatem officia repellat neque, maxime ea earum deserunt, libero</p>
 
-        </div>
-    </section>
-    <section id="section-two">
-        <div class="section-text">
-            <h3>Heading</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque obcaecati eveniet nam. Ipsum deleniti tempora iure, beatae nesciunt distinctio error voluptatem officia repellat neque, maxime ea earum deserunt, libero</p>
-        </div>
+		</div>
+	</section>
+	<section id="section-two">
+		<div class="section-text">
+			<h3>Heading</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque obcaecati eveniet nam. Ipsum deleniti tempora iure, beatae nesciunt distinctio error voluptatem officia repellat neque, maxime ea earum deserunt, libero</p>
+		</div>
 
-        <div class="img-section">
-            <img src="https://picsum.photos/401/401" alt="">
-        </div>
-    </section>
+		<div class="img-section">
+			<img src="https://picsum.photos/401/401" alt="">
+		</div>
+	</section>
 </main>
 
 
 
 <footer>
+	<div class="col1">
+		<ul>
+			<li class="socialicons"><a href="https://www.facebook.com/truheartinc/"><i class="fab fa-facebook-f"></i></a></li>
 
-    <ul>
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-    </ul>
-
-    <ul>
-        <li>Item four</li>
-        <li>Item five</li>
-        <li>Item six</li>
-    </ul>
+			<li class="socialicons"><a href="https://twitter.com/TruHeartInc"><i class="fab fa-twitter"></i></a></li>
+			
+			<li class="socialicons"><a href="##"><i class="fab fa-instagram"></i></a></li>
+		</ul>
+	</div>
 
 
-    <i class="fab fa-facebook-square"></i>
-    <i class="fab fa-instagram"></i>
-    <i class="fab fa-twitter"></i>
+
+	<div class="col2">
+		<p>Contact us:</p>
+		<a href="mailto:INFO@TRUHEART.ORG">info@truheart.org</a> <br/>
+		<span>(518) 698-6836</span>
+	</div>
+
+
+
+	<div class="col3">
+		<span>&copy; 2018 Truheart, Inc.</span>
+	</div>
+
+
 </footer>
+
 
 <!------------------- Coppied Squarspace Code Below This Line ----------------->
 <!-- <body>
   <h1 class="text-align-center">&nbsp;Make a Difference, Volunteer!</h1>
   <figure>
-    <blockquote>
-      <span>&#147;</span>Service to others is the rent you pay for your room here on earth!<span>&#148;</span>
-    </blockquote>
-    <figcaption class="source">&mdash; Muhammad Ali</figcaption>
+	<blockquote>
+	  <span>&#147;</span>Service to others is the rent you pay for your room here on earth!<span>&#148;</span>
+	</blockquote>
+	<figcaption class="source">&mdash; Muhammad Ali</figcaption>
   </figure>
   <p>We at Tru Heart wholeheartedly believe and agree with the words of the great Muhammad Ali. If &nbsp;you would like to pay your rent, please join us as we</p>
   <div>
-    <figure>
-      <img src="https://static1.squarespace.com/static/58d5c0f8f7e0ab027a00b801/t/595575fa59cc68d93c16b68f/1499294749698/11194448_10100253446553046_5930820041322027836_o.jpg" alt="">
-      <figcaption>Community Game Night</figcaption>
-    </figure>
-    <figure>
-      <img src="https://static1.squarespace.com/static/58d5c0f8f7e0ab027a00b801/t/595579f98419c20ca0747f8a/1499625656781/10703709_611482532293627_6275012211057451186_n.jpg?format=500w" alt="">
-      <figcaption>South End Community Clean Up</figcaption>
-    </figure>
-    <figure>
-      <img src="https://static1.squarespace.com/static/58d5c0f8f7e0ab027a00b801/t/59557976197aead252f91297/1498773886546/15196076_1165914353477230_4064222785085712414_o.jpg?format=500w" alt="">
-      <figcaption>Annual Thanksgiving Dinner Hosted by Tru Heart at the Schuyler Inn Shelter</figcaption>
-    </figure>
-  </div> -->
+	<figure>
+	  <img src="https://static1.squarespace.com/static/58d5c0f8f7e0ab027a00b801/t/595575fa59cc68d93c16b68f/1499294749698/11194448_10100253446553046_5930820041322027836_o.jpg" alt="">
+	  <figcaption>Community Game Night</figcaption>
+	</figure>
+	<figure>
+	  <img src="https://static1.squarespace.com/static/58d5c0f8f7e0ab027a00b801/t/595579f98419c20ca0747f8a/1499625656781/10703709_611482532293627_6275012211057451186_n.jpg?format=500w" alt="">
+	  <figcaption>South End Community Clean Up</figcaption>
+	</figure>
+	<figure>
+	  <img src="https://static1.squarespace.com/static/58d5c0f8f7e0ab027a00b801/t/59557976197aead252f91297/1498773886546/15196076_1165914353477230_4064222785085712414_o.jpg?format=500w" alt="">
+	  <figcaption>Annual Thanksgiving Dinner Hosted by Tru Heart at the Schuyler Inn Shelter</figcaption>
+	</figure>
+</div> -->
 <!-- ^^^^^^^^^^^^^^^Squarspace Content Above This Line ^^^^^^^^^^^^^^^^-->
 
 
