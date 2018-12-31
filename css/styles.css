@@ -170,6 +170,13 @@ ul {
 
 }
 
+
+
+/* ----------------------------- */
+
+/* -------- MOBILE NAV ----------*/
+
+/* ----------------------------- */
 #hamburger {
     display: none;
     float: right;
@@ -178,6 +185,7 @@ ul {
     top: 15px;
     z-index: -1;
 }
+
 
 #mobile-nav {
     display: none;
@@ -203,20 +211,19 @@ ul ul {
     top: 100%;
     list-style: none;
     background-color: #444;
-    padding: 5px;
 }
 
-#donate>.subnav {
+#donate>.subnav{
     position: absolute;
     left: -38%;
-    width: auto;
+    width: auto; 
 }
 
 ul ul li a {
     display: block;
     width: 100%;
     height: 100%;
-    padding: 3px 0;
+    padding: 10px 5px;
     margin: 0;
 }
 
@@ -378,14 +385,13 @@ section.partner img {
 /* ---------- DONATE ------------*/
 
 /* ----------------------------- */
+
+
 #jumbotron {
+
+    background-image: url("../img/index-main.jpg");
     text-align: center;
     margin: 0 auto;
-}
-
-#jumbotron {
-
-    /*background-image: url("../img/index-main.jpg");*/
     height: 600px;
     position: relative;
     background-position: center;
