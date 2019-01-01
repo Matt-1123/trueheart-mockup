@@ -76,11 +76,13 @@ nav {
     z-index: 10000;
 }
 
-nav img {
-    display: block;
-    float: left;
-    height: 65px;
-    margin: 5px;
+/* to fix: some areas of logo not clickable when full nav bar displayed */
+#nav-logo,
+nav img{
+  display: inline-block;
+  float: left;
+  height: 65px;
+  margin: 5px;
 }
 
 nav a {
@@ -216,7 +218,7 @@ ul ul {
 #donate>.subnav{
     position: absolute;
     left: -38%;
-    width: auto; 
+    width: auto;
 }
 
 ul ul li a {
@@ -389,7 +391,8 @@ section.partner img {
 
 #jumbotron {
 
-    background-image: url("../img/index-main.jpg");
+    /* background-image: url("../img/index-main.jpg"); */
+    /* uncomment background image for parallax effect */
     text-align: center;
     margin: 0 auto;
     height: 600px;
