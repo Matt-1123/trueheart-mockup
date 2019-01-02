@@ -9,11 +9,7 @@
         display: none;
     }
 
-    /* ----------------------------- */
 
-    /* ----------- MAIN -----------*/
-
-    /* ----------------------------- */
     .img-section {
         display: none;
     }
@@ -29,12 +25,12 @@
     .section-text p {
         width: 95%;
         margin: 0;
-        font: 100 5vw/1.6em 'Quicksand';
+        font: 100 16px/1.6em 'Quicksand';
         transition: all 150ms linear;
     }
 
     .section-text h3 {
-        font-size: 6vw;
+        font-size: 20px;
         display: block;
         transition: all 150ms linear;
     }
@@ -75,7 +71,6 @@
         margin: 0;
         text-align: center;
         transition: left 200ms linear;
-        `
     }
 
     #desktop-nav.show {
@@ -166,9 +161,13 @@
     /* ----------- MAIN -----------*/
 
     /* ----------------------------- */
+
+    .section-text h3 {
+        font-size: 3em;
+    }
     .section-text p {
         width: 95%;
-        font: 100 3vw/1.6em 'Quicksand';
+        font: 100 1.8em/1.6em 'Quicksand';
     }
 
     .col1,
@@ -187,11 +186,11 @@
 @media screen and (min-width:641px) and (max-width:750px) {
     .section-text p {
         width: 95%;
-        font: 100 3vw/1.6em 'Quicksand';
+        font: 100 1.8em/1.6em 'Quicksand';
     }
 
     .section-text h3 {
-        font-size: 4vw;
+        font-size: 3.5em;
         display: block;
     }
 
@@ -208,8 +207,10 @@
     }
 
     .section-text h3 {
-        font-size: 3.5vw;
+        font-size: 30px;
         display: block;
+        transition: all 150ms linear;
+
     }
 
 }
