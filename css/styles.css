@@ -395,7 +395,7 @@ section.partner img {
     /* uncomment background image for parallax effect */
     text-align: center;
     margin: 0 auto;
-    height: 600px;
+    /* height: 600px; */
     position: relative;
     background-position: center;
     background-size: cover;
@@ -404,14 +404,18 @@ section.partner img {
     max-width: 100%;
 }
 
+#jumbotron img{
+  width: 100%;
+}
+
 .img-title {
     position: absolute;
-    top: 45%;
+    top: 30%;
     width: 100%;
     text-align: center;
     color: #fff;
     font-family: 'Quicksand', sans-serif;
-    font-size: 34px;
+    font-size: 48px;
     letter-spacing: 8px;
     text-transform: uppercase;
 }

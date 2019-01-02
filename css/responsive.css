@@ -157,6 +157,16 @@
         border-left: none;
     }
 
+    .img-title{
+      font-size: 40px;
+    }
+    .img-quote{
+      font-size: 24px;
+    }
+    .img-quote .quote-border{
+      padding: 8px;
+    }
+
 }
 
 @media screen and (min-width:551px) and (max-width:640px) {
@@ -182,6 +192,13 @@
         border-left: none;
     }
 
+    .img-quote{
+      font-size: 30px;
+    }
+    .img-quote .quote-border{
+      padding: 14px;
+    }
+
 }
 
 @media screen and (min-width:641px) and (max-width:750px) {
@@ -193,6 +210,16 @@
     .section-text h3 {
         font-size: 4vw;
         display: block;
+    }
+
+    .img-title{
+      font-size: 56px;
+    }
+    .img-quote{
+      font-size: 34px;
+    }
+    .img-quote .quote-border{
+      padding: 14px;
     }
 
 }
@@ -210,6 +237,16 @@
     .section-text h3 {
         font-size: 3.5vw;
         display: block;
+    }
+
+    .img-title{
+      font-size: 64px;
+    }
+    .img-quote{
+      font-size: 42px;
+    }
+    .img-quote .quote-border{
+      padding: 20px;
     }
 
 }
@@ -231,6 +268,17 @@ width: 100%;
     .section-text h3 {
         font-size: 3.4vw;
         display: block;
+    }
+
+    .img-title{
+      font-size: 64px;
+    }
+    .img-quote{
+      font-size: 42px;
+      top: 55%;
+    }
+    .img-quote .quote-border{
+      padding: 20px;
     }
 
 }
