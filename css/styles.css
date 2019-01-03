@@ -265,7 +265,9 @@ ul li:hover ul {
     position: absolute;
     width: 0;
     height: 2px;
-    background: linear-gradient(to right, #E29587, #D66D00);
+    background-image: background: -webkit-linear-gradient(left, #E29587, #D66D00);
+    background-image: background: -o-linear-gradient(left, #E29587, #D66D00);
+    background-image: background: linear-gradient(to right, #E29587, #D66D00);
     bottom: 0;
     left: 50%;
     border-radius: 10px;
@@ -343,7 +345,7 @@ ul li:hover ul {
     bottom: 0;
     height: 100%;
     z-index: 20 ;
-    background: rgba(0,0,0, .3);
+    background: rgba(190, 90, 210, .2);
 }
 
 .text {
@@ -421,15 +423,26 @@ section.partner img {
 
 .fa-chevron-down {
     position: fixed;
-    bottom: 2%;
+    bottom: 5%;
     right: 2%;
-    font-size: 3em;
-    color: #eee;
-    background: linear-gradient(to right, #E29587, #D66D00)
-    border-radius: 50%;
-    height:75px;   
-    width: 75px;
-    z-index: 100;
+    font-size:3em;
+    color: #eff;
+    background: -webkit-linear-gradient(right, #E29587, #D66D00);
+    background: -o-linear-gradient(right, #E29587, #D66D00);
+    background: linear-gradient(to right, #E29587, #D66D00);
+    /*border-radius: 50%;*/
+    height:60px;   
+    width: 60px;
+    z-index: 10;
+    /*transition: all 3s ease;*/
+}
+
+.rotate {
+    transform: rotateX(180deg);
+    background: -webkit-linear-gradient(left, #E29587, #D66D00);
+    background: -o-linear-gradient(left, #E29587, #D66D00);
+    background: linear-gradient(to left, #E29587, #D66D00);
+    color: #f33;
 }
 
 #jumbotron img{
