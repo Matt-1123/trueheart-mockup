@@ -5,12 +5,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>TruHeart Mockup</title>
+
+	<!-- owl carousel stylesheets -->
+	<link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/owlcarousel/owl.theme.default.css">
+	<!-- main stylesheets -->
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/responsive.css">
+
 	<link href="https://fonts.googleapis.com/css?family=Quicksand|Sanchez|Lato|Roboto|Open+Sans|Kameron|Raleway|Cookie" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
 	<header>
@@ -59,17 +64,35 @@
 	</header>
 
 
-	<div id="jumbotron">
-		<!-- <img src="https://picsum.photos/1350/600" alt="" /> -->
+		<!-- <div id="jumbotron">
+			<div class="img-title">
+				<span class="border">TruHeart</span>
+			</div>
+
+			<div class="img-quote">
+				<span class='quote-border'>A mind for change, a heart for the community</span>
+			</div>
+			<i class="fas fa-chevron-down" role="button"></i>
+
+		</div> -->
+
+	<div class="carousel-container">
+		<div id="slider-area" class="owl-carousel owl-theme">
+			<div style="background-image: url(img/index-main.jpg);"></div>
+			<div style="background-image: url(img/gaming.jpeg);"></div>
+			<div style="background-image: url(img/pose.jpg);"></div>
+		</div>
 		<div class="img-title">
 			<span class="border">TruHeart</span>
 		</div>
-
 		<div class="img-quote">
 			<span class='quote-border'>A mind for change, a heart for the community</span>
 		</div>
+		<!-- <div id="slider-text">
+			<h2>TruHeart</h2>
+			<p class="img-quote quote-border">A mind for change, a heart for the community</p>
+		</div> -->
 		<i class="fas fa-chevron-down" role="button"></i>
-
 	</div>
 
 
@@ -109,7 +132,7 @@
 		<section id="four">
 			<div class="overlay">
 				<div class="text">
-					
+
 						<h3>Founded by</h3>
 						<p>Khalid Miller, and brought to life by directors Paul Collins-Hackett, Kelly Jean-Charles, Jose Romero, Kimyah Jean-Charles, Candace Dobbs, and Jamel Mosely.</p>
 				</div>
@@ -149,9 +172,9 @@
 
 		</footer>
 
-
-		<script src="js/script.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
-
 	</body>
 	</html>

@@ -50,14 +50,25 @@ $(document).ready(function() {
 	})
 	.mouseup(function(){
 		$(this).removeClass('scale')
-	}); 
-});
-
-$(function(){
-	var hamburger = $('#hamburger');
-	var nav = $('#desktop-nav');
-	hamburger.on('click', function(){
-		hamburger.toggleClass("fa-bars fa-times");
-		nav.toggleClass('show');
 	});
+
+
+	$(function(){
+		var hamburger = $('#hamburger');
+		var nav = $('#desktop-nav');
+		hamburger.on('click', function(){
+			hamburger.toggleClass("fa-bars fa-times");
+			nav.toggleClass('show');
+		});
+	});
+
+	// owl carourel
+	$(".owl-carousel").owlCarousel({
+		loop: true,
+		nav: true,
+		items: 1,
+		autoHeight: false
+	});
+
+
 });
