@@ -161,6 +161,9 @@
     .img-quote .quote-border{
       padding: 8px;
     }
+    .carousel-container{
+      margin: 0 0 20% 0;
+    }
 
 }
 
@@ -197,6 +200,9 @@
     .img-quote .quote-border{
       padding: 14px;
     }
+    .carousel-container{
+      margin: 0 0 20% 0;
+    }
 
 }
 
@@ -211,6 +217,9 @@
         display: block;
     }
 
+    .carousel-container{
+      margin: 0 0 20% 0;
+    }
     .img-title{
       font-size: 56px;
     }
