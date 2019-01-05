@@ -386,7 +386,7 @@ ul li:hover ul {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     /*margin-bottom: 25%;*/
 }
 #two {
@@ -395,7 +395,7 @@ ul li:hover ul {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     margin-bottom: 25%;
 }
 #three {
@@ -404,7 +404,7 @@ ul li:hover ul {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     margin-bottom: 25%;
 }
 #four {
@@ -413,7 +413,7 @@ ul li:hover ul {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 
 }
 .overlay  {

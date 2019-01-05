@@ -78,11 +78,12 @@ $(document).ready(function() {
 // ---------------------------------------------------------------
 
 var section = $('section');
+var chervron = $('.fa-chevron-down')
 
-$('fa-chevron-down').click(function (){
-	for (index in section) {
-		
-	}
+chervron.click(function (){
+    for (i in section) {
+        chervron.attr('href', section[i])
+    }
 	
 });
 
@@ -94,7 +95,7 @@ particlesJS("particles-js", {
       "value": 380,
       "density": {
         "enable": true,
-        "value_area": 1300
+        "value_area": 2000
       }
     },
     "color": {
@@ -120,13 +121,13 @@ particlesJS("particles-js", {
       "random": false,
       "anim": {
         "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
+        "speed": .2,
+        "opacity_min": 0.8,
         "sync": false
       }
     },
     "size": {
-      "value": 3,
+      "value":15,
       "random": true,
       "anim": {
         "enable": false,
@@ -140,7 +141,7 @@ particlesJS("particles-js", {
       "distance": 150,
       "color": "#ffffff",
       "opacity": 0.4,
-      "width": 1
+      "width": 3
     },
     "move": {
       "enable": true,
@@ -161,11 +162,11 @@ particlesJS("particles-js", {
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": false,
+        "enable": true,
         "mode": "grab"
       },
       "onclick": {
-        "enable": false,
+        "enable": true,
         "mode": "push"
       },
       "resize": true
@@ -182,7 +183,7 @@ particlesJS("particles-js", {
         "size": 40,
         "duration": 2,
         "opacity": 8,
-        "speed": 3
+        "speed": 1
       },
       "repulse": {
         "distance": 200,
