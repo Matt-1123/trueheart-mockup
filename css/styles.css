@@ -323,7 +323,11 @@ ul li:hover ul {
 .img-title{
     position: absolute;
     top: 30%;
-    width: 100%;
+    width: auto;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
     text-align: center;
     color: #fff;
     font-family: 'Quicksand', sans-serif;
@@ -331,6 +335,11 @@ ul li:hover ul {
     letter-spacing: 8px;
     text-transform: uppercase;
     z-index: 10000;
+}
+.title-border{
+  background: #6D676E;
+  padding: 10px 15px;
+  opacity: 0.75;
 }
 .img-quote {
     position: absolute;
@@ -364,7 +373,7 @@ ul li:hover ul {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     /*margin-bottom: 25%;*/
 }
 #two {
@@ -373,6 +382,8 @@ ul li:hover ul {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
+    /*background-attachment: fixed;*/
+    /* margin-bottom: 25%; */
     background-attachment: fixed;
 }
 
@@ -401,6 +412,8 @@ ul li:hover ul {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
+    /*background-attachment: fixed;*/
+    /* margin-bottom: 25%; */
     background-attachment: fixed;
 }
 #four {
@@ -409,7 +422,7 @@ ul li:hover ul {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 
 }
 .overlay  {

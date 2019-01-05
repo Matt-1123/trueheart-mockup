@@ -56,10 +56,10 @@ $(document).ready(function() {
 	// owl carourel
 	$(".owl-carousel").owlCarousel({
 		loop: true,
-		nav: true,
 		items: 1,
 		autoHeight: false
 	});
+
 
 
 });
