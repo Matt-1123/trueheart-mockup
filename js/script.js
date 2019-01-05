@@ -65,7 +65,6 @@ $(document).ready(function() {
 	// owl carourel
 	$(".owl-carousel").owlCarousel({
 		loop: true,
-		nav: true,
 		items: 1,
 		autoHeight: false
 	});
@@ -84,7 +83,7 @@ chervron.click(function (){
     for (i in section) {
         chervron.attr('href', section[i])
     }
-	
+
 });
 
 
