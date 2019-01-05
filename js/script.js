@@ -10,15 +10,6 @@ $(document).ready(function() {
 
 
 
-	// Rotate Cheveron
-
-	$(window).on('scroll', function(){
-		var scrolled = window.scrollY;
-		var scrollable = document.documentElement.scrollHeight - window.innerHeight;
-		var chervron = $('.fa-chevron-down');
-
-		scrolled === scrollable ? chervron.addClass('rotate') : chervron.removeClass('rotate');
-	});
 
 
 	var date  = new Date()
