@@ -387,7 +387,7 @@ ul li:hover ul {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin-bottom: 25%;
+    /*margin-bottom: 25%;*/
 }
 #two {
     background: url('../img/37232359_1596004380508099_6557426127592226816_o.jpg');
@@ -436,6 +436,11 @@ ul li:hover ul {
     position: absolute;
     z-index: 10;
     height: 100%;
+}
+
+
+#particles-js {
+    height: 300px;
 }
 
 .text>h3 {
