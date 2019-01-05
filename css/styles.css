@@ -397,7 +397,28 @@ ul li:hover ul {
     background-position: center;
     /*background-attachment: fixed;*/
     margin-bottom: 25%;
+    background-attachment: fixed;
 }
+
+.copy-block {
+  display: flex;
+  padding: 20vh 0;
+  justify-content: center;
+}
+.copy-block .content {
+  min-width: 300px;
+  max-width: 600px;
+  color: #fff;
+}
+
+.copy-block .content h3 {
+  font: 600 3.3em/1.5em "Sanchez";
+
+}
+.copy-block .content p {
+  font: 400 1em/1.5em "Quicksand";
+}
+
 #three {
     background: url('../img/11194448_10100253446553046_5930820041322027836_o.jpg');
     height: 100vh;
@@ -406,6 +427,7 @@ ul li:hover ul {
     background-position: center;
     /*background-attachment: fixed;*/
     margin-bottom: 25%;
+    background-attachment: fixed;
 }
 #four {
     background: url('../img/tumblr_mn8b8sLRb61rkz363o1_1280.jpg');
@@ -417,13 +439,13 @@ ul li:hover ul {
 
 }
 .overlay  {
-    position: absolute:
+    position: absolute;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
     height: 100%;
-    z-index: 20 ;
+    z-index: 20;
     background: rgba(190, 90, 210, .2);
 }
 
@@ -444,7 +466,7 @@ ul li:hover ul {
 }
 
 .text>h3 {
-    font: 600 3.3em/2.6em "Kameron";
+    font: 600 3.3em/2.6em "Sanchez";
 }
 
 .text>p {
@@ -452,7 +474,37 @@ ul li:hover ul {
 }
 
 
+.hp-partners {
+}
+.hp-partners h3 {
+  font: 600 3.3em/2.6em "Sanchez";
+  color: white;
+}
 
+.hp-partners .partner-list {
+  display: flex;
+  flex-wrap:wrap;
+}
+.hp-partners .partner-item {
+  width: 33.3%;
+  padding: 10px;
+}
+@media (max-width: 960px){
+  .hp-partners .partner-item {
+      width: 50%;
+  }
+}
+@media (max-width: 700px){
+  .hp-partners .partner-item {
+      width: 100%;
+  }
+}
+
+
+.partner-img {
+  width: 100%;
+  height: auto;
+}
 
 
 /* ------------------------------------------------------------------------- */
