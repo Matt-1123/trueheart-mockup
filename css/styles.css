@@ -349,28 +349,6 @@ ul li:hover ul {
     padding: 20px;
     opacity: 0.75;
 }
-.fa-chevron-down {
-    position: fixed;
-    bottom: 5%;
-    right: 2%;
-    font-size:3em;
-    color: #eff;
-    background: -webkit-linear-gradient(right, #E29587, #D66D00);
-    background: -o-linear-gradient(right, #E29587, #D66D00);
-    background: linear-gradient(to right, #E29587, #D66D00);
-    /*border-radius: 50%;*/
-    height:60px;
-    width: 60px;
-    z-index: 10;
-    /*transition: all 3s ease;*/
-}
-.rotate {
-    transform: rotateX(180deg);
-    background: -webkit-linear-gradient(left, #E29587, #D66D00);
-    background: -o-linear-gradient(left, #E29587, #D66D00);
-    background: linear-gradient(to left, #E29587, #D66D00);
-    color: #f33;
-}
 
 
 
@@ -457,10 +435,6 @@ ul li:hover ul {
 }
 
 
-#particles-js {
-    height: 300px;
-}
-
 .text>h3 {
     font: 600 3.3em/2.6em "Sanchez";
 }
@@ -472,6 +446,7 @@ ul li:hover ul {
 
 .hp-partners {
 }
+
 .hp-partners h3 {
   font: 600 3.3em/2.6em "Sanchez";
   color: white;
