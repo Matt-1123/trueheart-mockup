@@ -277,7 +277,7 @@ ul li:hover ul {
     content: '';
     position: absolute;
     width: 0;
-    height: 2px;
+    height: 1px;
     background: #fff;
     opacity: 0.25;
     top: 0;
@@ -425,7 +425,7 @@ ul li:hover ul {
     /*background-attachment: fixed;*/
 
 }
-.overlay  {
+/*.overlay  {
     position: absolute;
     top: 0;
     right: 0;
@@ -446,7 +446,7 @@ ul li:hover ul {
     z-index: 10;
     height: 100%;
 }
-
+*/
 
 .text>h3 {
     font: 600 3.3em/2.6em "Sanchez";
@@ -463,6 +463,7 @@ ul li:hover ul {
 .hp-partners h3 {
   font: 600 3.3em/2.6em "Sanchez";
   color: white;
+  text-align: center;
 }
 
 .hp-partners .partner-list {
