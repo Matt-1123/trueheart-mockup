@@ -382,9 +382,8 @@ ul li:hover ul {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    /*background-attachment: fixed;*/
-    /* margin-bottom: 25%; */
     background-attachment: fixed;
+    /* margin-bottom: 25%; */
 }
 
 .copy-block {
@@ -412,9 +411,8 @@ ul li:hover ul {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    /*background-attachment: fixed;*/
-    /* margin-bottom: 25%; */
     background-attachment: fixed;
+    /* margin-bottom: 25%; */
 }
 #four {
     background: url('../img/tumblr_mn8b8sLRb61rkz363o1_1280.jpg');
