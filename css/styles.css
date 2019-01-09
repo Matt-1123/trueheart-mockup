@@ -327,6 +327,7 @@ ul li:hover ul {
     left: 50%;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
+    border: solid 1px #fff;
     transform: translateX(-50%);
     text-align: center;
     color: #fff;
@@ -337,13 +338,13 @@ ul li:hover ul {
     z-index: 10000;
 }
 .title-border{
-  background: #6D676E;
+  background: #000;
   padding: 10px 15px;
   opacity: 0.75;
 }
 .img-quote {
     position: absolute;
-    top: 60%;
+    top: 45%;
     width: 100%;
     text-align: center;
     font-size: 61px;
@@ -352,11 +353,10 @@ ul li:hover ul {
     text-shadow: 2px 2px rgba(0, 0, 0, 0.78);
     z-index: 10000;
 }
-.img-quote .quote-border {
-    background: #FFA800;
+.img-quote {
+    /*background: #FFA800;*/
     color: #fff;
     padding: 20px;
-    opacity: 0.75;
 }
 .fa-chevron-down {
     position: fixed;
@@ -570,9 +570,11 @@ footer a {
 .col1 {
     color: white;
     width: 33%;
-    /*padding: 2%;*/
-}
+  }
 
+.col1 ul{
+  top: 0rem;
+}
 .col2 {
     color: #888;
     font-size: 20px;
@@ -592,10 +594,10 @@ footer a {
 
 .col3 {
     color: #888;
-    font-size: 1.25rem;
+    font-size: 1rem;
     width: 33%;
     font-family: 'Quicksand';
-    padding: 2%;
+    padding: 3.5%;
      /*border-right: 2px solid #678;*/
 }
 
@@ -603,12 +605,16 @@ footer a {
     border-radius: 50%;
     font-size: 1.5em;
     font-weight: 600;
-    color: #eee;    /*background: #888;*/
-    width: 35px;
-    height: 35px;
+    color: #eee;
+    background: #888;
+    width: 45px;
+    height: 45px;
     text-align: center;
     padding: 10px;
     cursor: pointer;
+}
+.fab:hover{
+  background: #FFA800;
 }
 
 /*.fa-instagram:hover {
@@ -626,7 +632,7 @@ footer a {
 }*/
 
 .socialicons {
-    padding: 10px;
+    padding: 1px 10px;
 }
 
 /* ----------------------------- */
