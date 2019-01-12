@@ -791,7 +791,15 @@ footer a {
 .col1 {
     color: white;
     width: 33%;
+<<<<<<< HEAD
   }
+=======
+}
+
+.col1 ul{
+  top: 0rem;
+}
+>>>>>>> f64df2ccc86e2beb8639941fb318c39dc4cc1c62
 
 .col1 ul{
   top: 0rem;
@@ -805,6 +813,12 @@ footer a {
     padding: 1%;
     border-right: 1px solid #678;
     border-left: 1px solid #678;
+}
+
+.col2 p {
+    color: #fff;
+    font-family: 'Sanchez';
+    margin-bottom: 0px;
 }
 
 .col2 p {
