@@ -687,7 +687,10 @@ footer a {
 .col1 {
     color: white;
     width: 33%;
-    /*padding: 2%;*/
+}
+
+.col1 ul{
+  top: 0rem;
 }
 
 .col2 {
@@ -707,12 +710,18 @@ footer a {
     margin-bottom: 0px;
 }
 
+.col2 p {
+    color: #fff;
+    font-family: 'Sanchez';
+    margin-bottom: 0px;
+}
+
 .col3 {
     color: #888;
-    font-size: 1.25rem;
+    font-size: 1rem;
     width: 33%;
     font-family: 'Quicksand';
-    padding: 2%;
+    padding: 3.5%;
      /*border-right: 2px solid #678;*/
 }
 
@@ -720,12 +729,16 @@ footer a {
     border-radius: 50%;
     font-size: 1.5em;
     font-weight: 600;
-    color: #eee;    /*background: #888;*/
-    width: 35px;
-    height: 35px;
+    color: #eee;
+    background: #888;
+    width: 45px;
+    height: 45px;
     text-align: center;
     padding: 10px;
     cursor: pointer;
+}
+.fab:hover{
+  background: #FFA800;
 }
 
 /*.fa-instagram:hover {
@@ -743,7 +756,7 @@ footer a {
 }*/
 
 .socialicons {
-    padding: 10px;
+    padding: 1px 10px;
 }
 
 /* ----------------------------- */
