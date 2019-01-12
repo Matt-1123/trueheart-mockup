@@ -375,7 +375,8 @@ ul li:hover ul {
 /* ------------------------------------------------------------------------- */
 .carousel-container{
   height: 75vh;
-  margin: 0 0 10% 0;
+  margin: 0;
+  background: #fff;
 }
 #slider-area{
   position: absolute;
@@ -626,8 +627,74 @@ section.partner img {
 /* ---------- DONATE ------------*/
 
 /* ----------------------------- */
+
+/* MAIN IMAGE */
+#img-container{
+  height: 75vh;
+  margin: 0;
+  background: #fff;
+  overflow: hidden;
+}
+#take-action-img{
+  height: 75vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  overflow: hidden;
+}
+#take-action-title{
+  top: 40%;
+  letter-spacing: 4px;
+  text-transform: none;
+  font-size: 60px;
+}
+  #take-action-title::after{
+    content: "";
+    width: 3px;
+    background: #fff;
+    height: 300px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000000;
+    top: 115%;
+    opacity: 0.75;
+  }
+#take-action-border{
+  border: 3px solid #fff;
+}
+
+/* MAIN CONTENT */
 .action-container{
   height: 400px;
+}
+#donate-container::before{
+  content: "";
+  width: 3px;
+  height: 10%;
+  background: #fff;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-2px);
+  opacity: 0.75;
+}
+#donate-container::after{
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: block;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  opacity: 0.75;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #volunteer-container{
   background: #FFA800;
@@ -908,3 +975,50 @@ footer a {
 /*--------------END SOCIAL PAGE -----------------*/
 
 /*-----------------------------------------------*/
+
+
+
+
+/*-----------------------------------------------*/
+
+/*----------------- FOUNDER PAGE -----------------*/
+
+/*-----------------------------------------------*/
+
+.jim {
+    width: 100%;
+    height: auto;
+}
+.copy-block-two {
+  display: flex;
+  padding: 20vh 0;
+  justify-content: flex-start;
+  margin-left: 10%;
+}
+
+article {
+    width: 800px;
+}
+
+article {
+  -webkit-column-count:5;
+  -moz-column-count:5;
+  column-count:5;
+}
+
+article {
+  -moz-column-width: 150px;
+  -webkit-column-width: 150px;
+  column-width: 150px;
+}
+
+article {
+  -webkit-column-gap: 30px;
+  -moz-column-gap: 30px;
+  column-gap: 30px;
+}
+
+article {
+  -moz-column-rule: 1px dotted #ccc;
+  -webkit-column-rule: 1px dotted #ccc;
+  column-rule: 1px dotted #ccc;
