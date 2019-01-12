@@ -865,3 +865,50 @@ footer a {
 /*--------------END SOCIAL PAGE -----------------*/
 
 /*-----------------------------------------------*/
+
+
+
+
+/*-----------------------------------------------*/
+
+/*----------------- FOUNDER PAGE -----------------*/
+
+/*-----------------------------------------------*/
+
+.jim {
+    width: 100%;
+    height: auto;
+}
+.copy-block-two {
+  display: flex;
+  padding: 20vh 0;
+  justify-content: flex-start;
+  margin-left: 10%;
+}
+
+article {
+    width: 800px;
+}
+
+article {
+  -webkit-column-count:5;
+  -moz-column-count:5;
+  column-count:5;
+}
+
+article {
+  -moz-column-width: 150px;
+  -webkit-column-width: 150px;
+  column-width: 150px;
+}
+
+article {
+  -webkit-column-gap: 30px;
+  -moz-column-gap: 30px;
+  column-gap: 30px;
+}
+
+article {
+  -moz-column-rule: 1px dotted #ccc;
+  -webkit-column-rule: 1px dotted #ccc;
+  column-rule: 1px dotted #ccc;
