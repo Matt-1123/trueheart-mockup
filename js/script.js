@@ -12,6 +12,17 @@ $(document).ready(function() {
 
 
 
+	$(window).on('scroll', function() {
+		// const scrollPosition = window.scrollY;
+		// $('.scrollY-position').html('<p>Scroll-Y Position: ' + scrollPosition + 'px</p>');
+
+		// if(scrollPosition >= 1970 && scrollPosition <= 2450) {
+			$('.content').addClass('content-border');
+			$('.content>div').addClass('intx-border')
+
+		// }	
+	});
+
 	var date  = new Date()
 	var day = date.getDate()
 	var month = date.getMonth() + 1;

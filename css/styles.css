@@ -369,14 +369,23 @@ ul li:hover ul {
     opacity: .5;
 }
 
+/*.scrollY-position {
+    font: 600 3em/1.2em "Sanchez";
+    background: #fff;
+    color #333;
+    display: inline-block;
+    position: fixed; 
+    z-index: 50000;  
+}*/
 
 /* ------------------------------------------------------------------------- */
-/* --------------------------------- CAROUSEL------------------------------------*/
+/* --------------------------------- CAROUSEL--------------------------------*/
 /* ------------------------------------------------------------------------- */
 .carousel-container{
   height: 75vh;
   margin: 0;
   background: #fff;
+  margin-bottom: 10%;
 }
 #slider-area{
   position: absolute;
