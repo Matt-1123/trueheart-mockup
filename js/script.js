@@ -22,6 +22,18 @@ $(document).ready(function() {
 
 
 
+	// $('.copy-block > .content').removeClass('copy-border')
+	// .mouseenter(function() {
+	// 	$(this).addClass('copy-border')
+	// 	.mouseleave(function() {
+	// 		$(this).removeClass('copy-border')
+	// 	});
+	// });
+
+
+
+
+
 	$('.fa-thumbs-up')
 	.mousedown(function(){
 		$(this).addClass('scale')
@@ -30,8 +42,6 @@ $(document).ready(function() {
 	.mouseup(function(){
 		$(this).removeClass('scale')
 	});
-
-
 
 
 	$('.fa-heart')

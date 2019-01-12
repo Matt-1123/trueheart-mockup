@@ -292,6 +292,84 @@ ul li:hover ul {
     width: 100%;
 }
 
+
+/* ------------------------------------------------------------------------- */
+/* ----------------------------- CONTENT BORDER------------------------------*/
+/* ------------------------------------------------------------------------- */
+
+
+.content-border:after {
+    content: '';
+    position:absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    opacity: 0;
+    border: 1px solid #90c2e7;
+    border-radius: 50%;
+    transition: all 400ms ease-in-out;
+}
+
+.copy-block:hover .content-border:after{
+    width: 60%;
+    opacity: .5;
+}
+
+.content-border:before {
+    content: '';
+    position:absolute;
+    bottom: -25px;
+    right: 0;
+    width: 0;
+    opacity: 0;
+    border: 1px solid #90c2e7;
+    border-radius: 50%;
+    transition: all 400ms ease-in-out;
+}
+
+.copy-block:hover .content-border:before{
+    width: 60%;
+    opacity: .5;
+}
+
+
+.intx-border:after {
+    content: '';
+    position:absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    border: 1px solid #90c2e7;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+.copy-block:hover .intx-border:after{
+    height: 60%;
+    opacity: .5;
+}
+
+.intx-border:before {
+    content: '';
+    position:absolute;
+    bottom: -25px;
+    right: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    border: 1px solid #90c2e7;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+.copy-block:hover .intx-border:before{
+    height: 40%;
+    opacity: .5;
+}
+
+
 /* ------------------------------------------------------------------------- */
 /* --------------------------------- CAROUSEL------------------------------------*/
 /* ------------------------------------------------------------------------- */
