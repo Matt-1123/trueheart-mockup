@@ -889,7 +889,7 @@ footer a {
 /*-----------------------------------------------*/
 
 .jim {
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 .copy-block-two {
@@ -897,10 +897,14 @@ footer a {
   padding: 20vh 0;
   justify-content: flex-start;
   margin-left: 10%;
+  width: auto;
 }
 
 article {
-    width: 800px;
+    width: auto;
+    font-size: 90%;
+    display: column;
+    height: auto;
 }
 
 article {
@@ -910,18 +914,19 @@ article {
 }
 
 article {
-  -moz-column-width: 150px;
-  -webkit-column-width: 150px;
-  column-width: 150px;
+  -moz-column-width: 30vh;
+  -webkit-column-width: 30vh;
+  column-width: 30vh;
 }
 
 article {
-  -webkit-column-gap: 30px;
-  -moz-column-gap: 30px;
-  column-gap: 30px;
+  -webkit-column-gap: 5vh;
+  -moz-column-gap: 5vh;
+  column-gap: 5vh;
 }
 
 article {
   -moz-column-rule: 1px dotted #ccc;
   -webkit-column-rule: 1px dotted #ccc;
   column-rule: 1px dotted #ccc;
+}
