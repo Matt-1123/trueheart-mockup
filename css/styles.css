@@ -338,13 +338,14 @@ ul li:hover ul {
     z-index: 10000;
 }
 .title-border{
-  background: #6D676E;
+  background: #0061ab;
   padding: 10px 15px;
-  opacity: 0.75;
+  opacity: 0.70;
+  border: solid 1px;
 }
 .img-quote {
     position: absolute;
-    top: 60%;
+    top: 51%;
     width: 100%;
     text-align: center;
     font-size: 61px;
@@ -354,10 +355,8 @@ ul li:hover ul {
     z-index: 10000;
 }
 .img-quote .quote-border {
-    background: #FFA800;
     color: #fff;
     padding: 20px;
-    opacity: 0.75;
 }
 
 
@@ -392,6 +391,13 @@ ul li:hover ul {
   padding: 20vh 0;
   justify-content: center;
 }
+
+.copy-blockpartners {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
 .content {
   min-width: 300px;
   max-width: 600px;
@@ -457,12 +463,6 @@ ul li:hover ul {
 
 
 .hp-partners {
-}
-
-.hp-partners h3 {
-  font: 600 3.3em/2.6em "Sanchez";
-  color: white;
-  text-align: center;
 }
 
 .hp-partners .partner-list {
