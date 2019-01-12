@@ -417,13 +417,22 @@ ul li:hover ul {
     z-index: 10000;
 }
 .title-border{
+<<<<<<< HEAD
   background: #000;
+=======
+  background: #0061ab;
+>>>>>>> 1007abd3052e62e1304d7e46ecda8e95b0a98bb2
   padding: 10px 15px;
-  opacity: 0.75;
+  opacity: 0.70;
+  border: solid 1px;
 }
 .img-quote {
     position: absolute;
+<<<<<<< HEAD
     top: 45%;
+=======
+    top: 51%;
+>>>>>>> 1007abd3052e62e1304d7e46ecda8e95b0a98bb2
     width: 100%;
     text-align: center;
     font-size: 61px;
@@ -432,6 +441,7 @@ ul li:hover ul {
     text-shadow: 2px 2px rgba(0, 0, 0, 0.78);
     z-index: 10000;
 }
+<<<<<<< HEAD
 .img-quote {
     /*background: #FFA800;*/
     color: #fff;
@@ -458,6 +468,11 @@ ul li:hover ul {
     background: -o-linear-gradient(left, #E29587, #D66D00);
     background: linear-gradient(to left, #E29587, #D66D00);
     color: #f33;
+=======
+.img-quote .quote-border {
+    color: #fff;
+    padding: 20px;
+>>>>>>> 1007abd3052e62e1304d7e46ecda8e95b0a98bb2
 }
 
 
@@ -493,6 +508,13 @@ ul li:hover ul {
   padding: 20vh 0;
   justify-content: center;
 }
+
+.copy-blockpartners {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
 .content {
   min-width: 300px;
   max-width: 600px;
@@ -564,10 +586,13 @@ ul li:hover ul {
 
 .hp-partners {
 }
+<<<<<<< HEAD
 .hp-partners h3 {
   font: 600 3.3em/2.6em "Sanchez";
   color: white;
 }
+=======
+>>>>>>> 1007abd3052e62e1304d7e46ecda8e95b0a98bb2
 
 .hp-partners .partner-list {
   display: flex;
