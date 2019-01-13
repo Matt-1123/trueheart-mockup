@@ -892,19 +892,22 @@ footer a {
     width: 80%;
     height: auto;
 }
-.copy-block-two {
-  display: flex;
+section.copy-block-two {
+    display: flex;
   padding: 20vh 0;
   justify-content: flex-start;
-  margin-left: 10%;
-  width: auto;
+  margin-left: 5%;
+  width: 100%;
+  height: 100vh;
 }
 
 article {
-    width: auto;
-    font-size: 90%;
+    width: 100%;
+    font-size: auto;
     display: column;
     height: auto;
+    min-height: 30px;
+    max-height: 50vh;
 }
 
 article {
