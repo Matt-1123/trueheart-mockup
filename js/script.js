@@ -12,6 +12,17 @@ $(document).ready(function() {
 
 
 
+	$(document).on('scroll', function() {
+		// const scrollPosition = window.scrollY;
+		// $('.scrollY-position').html('<p>Scroll-Y Position: ' + scrollPosition + 'px</p>');
+
+		// if(scrollPosition >= 1970 && scrollPosition <= 2450) {
+			$('.content').addClass('content-border');
+			$('.content>div').addClass('intx-border')
+
+		// }	
+	});
+
 	var date  = new Date()
 	var day = date.getDate()
 	var month = date.getMonth() + 1;
@@ -19,6 +30,18 @@ $(document).ready(function() {
 	var today = (month + '-' + day + '-' + year)
 
 	$('.date').append(today);
+
+
+
+	// $('.copy-block > .content').removeClass('copy-border')
+	// .mouseenter(function() {
+	// 	$(this).addClass('copy-border')
+	// 	.mouseleave(function() {
+	// 		$(this).removeClass('copy-border')
+	// 	});
+	// });
+
+
 
 
 
@@ -30,8 +53,6 @@ $(document).ready(function() {
 	.mouseup(function(){
 		$(this).removeClass('scale')
 	});
-
-
 
 
 	$('.fa-heart')
