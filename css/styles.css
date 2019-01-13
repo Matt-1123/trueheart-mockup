@@ -541,10 +541,10 @@ section.partner img {
   overflow: hidden;
 }
 #take-action-title{
-  top: 40%;
+  top: 60%;
   letter-spacing: 4px;
   text-transform: none;
-  font-size: 60px;
+  font-size: 54px;
 }
   #take-action-title::after{
     content: "";
@@ -613,6 +613,9 @@ section.partner img {
   #content-right{
     padding: 0 10% 0 0;
   }
+.content p{
+  font-size: 1.2em;
+}
 .action-button{
   display: inline-block;
   position: relative;
