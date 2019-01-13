@@ -374,8 +374,8 @@ ul li:hover ul {
     background: #fff;
     color #333;
     display: inline-block;
-    position: fixed; 
-    z-index: 50000;  
+    position: fixed;
+    z-index: 50000;
 }*/
 
 /* ------------------------------------------------------------------------- */
@@ -994,28 +994,24 @@ footer a {
     width: 80%;
     height: auto;
 }
-section.copy-block-two {
+
+.narrow-view {
+    padding: 10vh;
+}
+
+/*section.copy-block-two {
     display: flex;
   padding: 20vh 0;
   justify-content: flex-start;
   margin-left: 5%;
   width: 100%;
   height: 100vh;
-}
+}*/
 
 article {
-    width: 100%;
-    font-size: auto;
-    display: column;
-    height: auto;
-    min-height: 30px;
-    max-height: 50vh;
-}
-
-article {
-  -webkit-column-count:5;
-  -moz-column-count:5;
-  column-count:5;
+  -webkit-column-count:4;
+  -moz-column-count:4;
+  column-count:4;
 }
 
 article {
@@ -1025,9 +1021,9 @@ article {
 }
 
 article {
-  -webkit-column-gap: 5vh;
-  -moz-column-gap: 5vh;
-  column-gap: 5vh;
+  -webkit-column-gap: 10vh;
+  -moz-column-gap: 10vh;
+  column-gap: 10vh;
 }
 
 article {
