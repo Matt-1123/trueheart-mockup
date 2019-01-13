@@ -12,7 +12,7 @@ $(document).ready(function() {
 
 
 
-	$(window).on('scroll', function() {
+	$(document).on('scroll', function() {
 		// const scrollPosition = window.scrollY;
 		// $('.scrollY-position').html('<p>Scroll-Y Position: ' + scrollPosition + 'px</p>');
 
