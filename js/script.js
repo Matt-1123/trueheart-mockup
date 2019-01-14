@@ -23,6 +23,19 @@ $(document).ready(function() {
 		// }
 	});
 
+
+	$(document).on('scroll', function (){
+		const scrollPosition = window.scrollY;
+		if(scrollPosition === 5000) {
+			$('.modal, .overlay').addClass('show-modal');
+		}	
+	});
+
+
+	$('.fa-window-close').on('click', function (){
+		$('.modal, .overlay').addClass('hide-modal ');
+	});
+
 	var date  = new Date()
 	var day = date.getDate()
 	var month = date.getMonth() + 1;
