@@ -415,7 +415,6 @@ ul li:hover ul {
     left: 50%;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
-    border: solid 1px #fff;
     transform: translateX(-50%);
     text-align: center;
     color: #fff;
