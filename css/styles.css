@@ -35,12 +35,27 @@ footer {
     float: left;
     width: 100%;
     position: relative;
-    display: block
+    display: block;
 }
 
 a {
     text-decoration: none;
     color: #000;
+}
+
+.contribute a {
+  font-family: "Quicksand";
+  display: block;
+  background: #fff;
+  min-width: 100px;
+  max-width: 148px;
+  height: 35px;
+  padding: 8px;
+  border-radius: 100px;
+  margin: auto;
+}
+.contribute a:hover{
+  background: #FFA800;
 }
 
 ul {
