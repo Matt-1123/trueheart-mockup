@@ -658,6 +658,7 @@ section.partner img {
   letter-spacing: 4px;
   text-transform: none;
   font-size: 54px;
+  border: none;
 }
   #take-action-title::after{
     content: "";
