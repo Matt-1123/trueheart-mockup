@@ -241,7 +241,7 @@ ul ul li {
     transition: all 350ms ease;
 }
 
-ul ul li:hover{
+ul ul li:hover {
     background: #FFA800;
     cursor: pointer;
 }
@@ -292,13 +292,100 @@ ul li:hover ul {
     width: 100%;
 }
 
+
 /* ------------------------------------------------------------------------- */
-/* --------------------------------- CAROUSEL------------------------------------*/
+/* ----------------------------- CONTENT BORDER------------------------------*/
+/* ------------------------------------------------------------------------- */
+
+
+.content-border:after {
+    content: '';
+    position:absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    opacity: 0;
+    border: 1px solid #90c2e7;
+    border-radius: 50%;
+    transition: all 400ms ease-in-out;
+}
+
+.copy-block:hover .content-border:after{
+    width: 60%;
+    opacity: .5;
+}
+
+.content-border:before {
+    content: '';
+    position:absolute;
+    bottom: -25px;
+    right: 0;
+    width: 0;
+    opacity: 0;
+    border: 1px solid #90c2e7;
+    border-radius: 50%;
+    transition: all 400ms ease-in-out;
+}
+
+.copy-block:hover .content-border:before{
+    width: 60%;
+    opacity: .5;
+}
+
+
+.intx-border:after {
+    content: '';
+    position:absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    border: 1px solid #90c2e7;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+.copy-block:hover .intx-border:after{
+    height: 60%;
+    opacity: .5;
+}
+
+.intx-border:before {
+    content: '';
+    position:absolute;
+    bottom: -25px;
+    right: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    border: 1px solid #90c2e7;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+.copy-block:hover .intx-border:before{
+    height: 40%;
+    opacity: .5;
+}
+
+/*.scrollY-position {
+    font: 600 3em/1.2em "Sanchez";
+    background: #fff;
+    color #333;
+    display: inline-block;
+    position: fixed; 
+    z-index: 50000;  
+}*/
+
+/* ------------------------------------------------------------------------- */
+/* --------------------------------- CAROUSEL--------------------------------*/
 /* ------------------------------------------------------------------------- */
 .carousel-container{
   height: 75vh;
   margin: 0;
   background: #fff;
+  margin-bottom: 10%;
 }
 #slider-area{
   position: absolute;
@@ -328,6 +415,7 @@ ul li:hover ul {
     left: 50%;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
+    border: solid 1px #fff;
     transform: translateX(-50%);
     text-align: center;
     color: #fff;
@@ -338,13 +426,13 @@ ul li:hover ul {
     z-index: 10000;
 }
 .title-border{
-  background: #6D676E;
+  background: #000;
   padding: 10px 15px;
   opacity: 0.75;
 }
 .img-quote {
     position: absolute;
-    top: 60%;
+    top: 45%;
     width: 100%;
     text-align: center;
     font-size: 61px;
@@ -353,11 +441,32 @@ ul li:hover ul {
     text-shadow: 2px 2px rgba(0, 0, 0, 0.78);
     z-index: 10000;
 }
-.img-quote .quote-border {
-    background: #FFA800;
+.img-quote {
+    /*background: #FFA800;*/
     color: #fff;
     padding: 20px;
-    opacity: 0.75;
+}
+.fa-chevron-down {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    font-size:3em;
+    color: #eff;
+    background: -webkit-linear-gradient(right, #E29587, #D66D00);
+    background: -o-linear-gradient(right, #E29587, #D66D00);
+    background: linear-gradient(to right, #E29587, #D66D00);
+    /*border-radius: 50%;*/
+    height:60px;
+    width: 60px;
+    z-index: 10;
+    /*transition: all 3s ease;*/
+}
+.rotate {
+    transform: rotateX(180deg);
+    background: -webkit-linear-gradient(left, #E29587, #D66D00);
+    background: -o-linear-gradient(left, #E29587, #D66D00);
+    background: linear-gradient(to left, #E29587, #D66D00);
+    color: #f33;
 }
 
 
@@ -383,8 +492,9 @@ ul li:hover ul {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     /* margin-bottom: 25%; */
+    background-attachment: fixed;
 }
 
 .copy-block {
@@ -412,8 +522,9 @@ ul li:hover ul {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     /* margin-bottom: 25%; */
+    background-attachment: fixed;
 }
 #four {
     background: url('../img/tumblr_mn8b8sLRb61rkz363o1_1280.jpg');
@@ -424,7 +535,7 @@ ul li:hover ul {
     /*background-attachment: fixed;*/
 
 }
-/*.overlay  {
+.overlay  {
     position: absolute;
     top: 0;
     right: 0;
@@ -445,7 +556,11 @@ ul li:hover ul {
     z-index: 10;
     height: 100%;
 }
-*/
+
+
+#particles-js {
+    height: 300px;
+}
 
 .text>h3 {
     font: 600 3.3em/2.6em "Sanchez";
@@ -458,11 +573,9 @@ ul li:hover ul {
 
 .hp-partners {
 }
-
 .hp-partners h3 {
   font: 600 3.3em/2.6em "Sanchez";
   color: white;
-  text-align: center;
 }
 
 .hp-partners .partner-list {
@@ -690,9 +803,11 @@ footer a {
 .col1 {
     color: white;
     width: 33%;
-    /*padding: 2%;*/
-}
+  }
 
+.col1 ul{
+  top: 0rem;
+}
 .col2 {
     color: #888;
     font-size: 20px;
@@ -712,10 +827,10 @@ footer a {
 
 .col3 {
     color: #888;
-    font-size: 1.25rem;
+    font-size: 1rem;
     width: 33%;
     font-family: 'Quicksand';
-    padding: 2%;
+    padding: 3.5%;
      /*border-right: 2px solid #678;*/
 }
 
@@ -723,12 +838,16 @@ footer a {
     border-radius: 50%;
     font-size: 1.5em;
     font-weight: 600;
-    color: #eee;    /*background: #888;*/
-    width: 35px;
-    height: 35px;
+    color: #eee;
+    background: #888;
+    width: 45px;
+    height: 45px;
     text-align: center;
     padding: 10px;
     cursor: pointer;
+}
+.fab:hover{
+  background: #FFA800;
 }
 
 /*.fa-instagram:hover {
@@ -746,7 +865,7 @@ footer a {
 }*/
 
 .socialicons {
-    padding: 10px;
+    padding: 1px 10px;
 }
 
 /* ----------------------------- */
@@ -868,3 +987,50 @@ footer a {
 /*--------------END SOCIAL PAGE -----------------*/
 
 /*-----------------------------------------------*/
+
+
+
+
+/*-----------------------------------------------*/
+
+/*----------------- FOUNDER PAGE -----------------*/
+
+/*-----------------------------------------------*/
+
+.jim {
+    width: 100%;
+    height: auto;
+}
+.copy-block-two {
+  display: flex;
+  padding: 20vh 0;
+  justify-content: flex-start;
+  margin-left: 10%;
+}
+
+article {
+    width: 800px;
+}
+
+article {
+  -webkit-column-count:5;
+  -moz-column-count:5;
+  column-count:5;
+}
+
+article {
+  -moz-column-width: 150px;
+  -webkit-column-width: 150px;
+  column-width: 150px;
+}
+
+article {
+  -webkit-column-gap: 30px;
+  -moz-column-gap: 30px;
+  column-gap: 30px;
+}
+
+article {
+  -moz-column-rule: 1px dotted #ccc;
+  -webkit-column-rule: 1px dotted #ccc;
+  column-rule: 1px dotted #ccc;
