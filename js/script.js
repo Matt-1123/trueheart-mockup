@@ -20,7 +20,7 @@ $(document).ready(function() {
 			$('.content').addClass('content-border');
 			$('.content>div').addClass('intx-border')
 
-		// }	
+		// }
 	});
 
 	var date  = new Date()
@@ -67,10 +67,12 @@ $(document).ready(function() {
 
 	$(function(){
 		var hamburger = $('#hamburger');
-		var nav = $('#desktop-nav');
+		var navLinks = $('#desktop-nav');
+		var nav = $('nav');
 		hamburger.on('click', function(){
 			hamburger.toggleClass("fa-bars fa-times");
-			nav.toggleClass('show');
+			navLinks.toggleClass('show');
+			nav.toggleClass('showSubnav');
 		});
 	});
 
