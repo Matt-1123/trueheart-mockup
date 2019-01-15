@@ -10,39 +10,37 @@ $(document).ready(function() {
 
 
 
+	$('.modal, .overlay').addClass('hide-modal')
+
+	
 
 
-	$(document).on('scroll', function() {
-		// const scrollPosition = window.scrollY;
-		// $('.scrollY-position').html('<p>Scroll-Y Position: ' + scrollPosition + 'px</p>');
-
-		// if(scrollPosition >= 1970 && scrollPosition <= 2450) {
-			$('.content').addClass('content-border');
-			$('.content>div').addClass('intx-border')
-
-		// }
+	$(window).scroll(function (){
+		let scrolled = window.scrollY;
+		let scrollable = document.documentElement.scrollHeight - window.innerHeight;
+	
+		if (scrolled === scrollable) {
+			$('.modal, .overlay')
+			.removeClass('hide-modal')
+			.addClass('show-modal')
+			.fadeIn(250)
+		}
 	});
-
-
-	$(document).on('scroll', function (){
-		const scrollPosition = window.scrollY;
-		if(scrollPosition === 5000) {
-			$('.modal, .overlay').addClass('show-modal');
-		}	
-	});
-
 
 	$('.fa-window-close').on('click', function (){
-		$('.modal, .overlay').addClass('hide-modal ');
+		$('.modal, .overlay')
+		.removeClass('show-modal')
+		.addClass('hide-modal');
 	});
 
-	var date  = new Date()
-	var day = date.getDate()
-	var month = date.getMonth() + 1;
-	var year = date.getFullYear();
-	var today = (month + '-' + day + '-' + year)
 
-	$('.date').append(today);
+	// var date  = new Date()
+	// var day = date.getDate()
+	// var month = date.getMonth() + 1;
+	// var year = date.getFullYear();
+	// var today = (month + '-' + day + '-' + year)
+
+	// $('.date').append(today);
 
 
 

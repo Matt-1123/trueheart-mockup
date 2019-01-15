@@ -482,9 +482,8 @@ ul li:hover ul {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    /*background-attachment: fixed;*/
-    /* margin-bottom: 25%; */
     background-attachment: fixed;
+    /* margin-bottom: 25%; */
 }
 
 .copy-block {
@@ -519,9 +518,8 @@ ul li:hover ul {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    /*background-attachment: fixed;*/
-    /* margin-bottom: 25%; */
     background-attachment: fixed;
+    /* margin-bottom: 25%; */
 }
 #four {
     background: url('../img/tumblr_mn8b8sLRb61rkz363o1_1280.jpg');
@@ -1066,13 +1064,12 @@ article {
     left: 0;
     right: 0;
     z-index: 10;
-    display: none;
     transition: all 400ms ease;
 }
 
 .modal {
   height: 500px;
-  width: 600px;
+  max-width:40%;
   padding: 10px;
   background: #3b5998;
   border-radius: 5px;
@@ -1083,7 +1080,6 @@ article {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 20;
-  display: none;
   text-align: center;
   transition: all 400ms ease;
 }
@@ -1109,8 +1105,10 @@ article {
 }
 
 .modal h4 {
-
-  font: 600 1.5em/1.4em "Sanchez";
+  font-weight: 600;
+  font-size: 1.5em;
+  font-family: 'Sanchez', 'serif';
+  margin: 1rem 0 ;
   color: #eee;
 }
 
