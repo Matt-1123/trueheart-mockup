@@ -23,7 +23,7 @@ $(document).ready(function() {
 			$('.modal, .overlay')
 			.removeClass('hide-modal')
 			.addClass('show-modal')
-			.fadeIn(250)
+			// .fadeIn(250)
 		}
 	});
 
