@@ -482,9 +482,8 @@ ul li:hover ul {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    /*background-attachment: fixed;*/
-    /* margin-bottom: 25%; */
     background-attachment: fixed;
+    /* margin-bottom: 25%; */
 }
 
 .copy-block {
@@ -519,9 +518,8 @@ ul li:hover ul {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    /*background-attachment: fixed;*/
-    /* margin-bottom: 25%; */
     background-attachment: fixed;
+    /* margin-bottom: 25%; */
 }
 #four {
     background: url('../img/tumblr_mn8b8sLRb61rkz363o1_1280.jpg');
@@ -1044,7 +1042,94 @@ article {
   column-rule: 1px dotted #ccc;
 }
 
+
 article h3 {
   -webkit-column-span: all;
   column-span:all;
+}
+
+
+/*-----------------------------------------------*/
+
+/*----------------- MODAL  ----------------------*/
+
+/*-----------------------------------------------*/
+
+
+.overlay {
+    background: #FEA701;
+    opacity: .9;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    transition: all 500ms ease;
+}
+
+.modal {
+  height: 500px;
+  max-width:40%;
+  padding: 10px;
+  background: #3b5998;
+  border-radius: 5px;
+  border: 2px solid #30d9ff;
+  box-shadow: 2px 2px 12px #111;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  text-align: center;
+  transition: all 500ms ease;
+}
+
+
+.modal-left, .modal-right { 
+  width: 50%;
+}
+
+.modal-left:after {
+  content: '';
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 1px; 
+  height: 50%;
+  border-right: 1px solid #114
+}
+
+.modal h3 {
+  font: 600 1.8em/1.8em "Sanchez";
+  color: #eee;
+}
+
+.modal h4 {
+  font-weight: 600;
+  font-size: 1.5em;
+  font-family: 'Sanchez', 'serif';
+  margin: 1rem 0 ;
+  color: #eee;
+}
+
+.modal p {
+  font: 600 1.2em/1.2em "Quicksand";
+  color: #114;
+  padding: 10px;
+}
+
+.fa-window-close {
+  font-size: 1.4em;
+  float: right;
+}
+
+.hide-modal {
+  opacity: 0;
+}
+
+.show-modal {
+  opacity: 1;
 }
