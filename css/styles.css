@@ -414,12 +414,6 @@ ul li:hover ul {
   background-size: cover;
   background-position: 50% 50%;
 }
-.slider-text{
-  position: absolute;
-  left: 30%;
-  top: 40%;
-  text-align: center;
-}
 .img-title{
     position: absolute;
     top: 30%;
@@ -1066,7 +1060,8 @@ article h3 {
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 10;
+    /* z-index: 10; */
+    z-index: -1;
     transition: all 500ms ease;
 }
 
@@ -1082,13 +1077,14 @@ article h3 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 20;
+  /* z-index: 20; */
+  z-index: -1;
   text-align: center;
   transition: all 500ms ease;
 }
 
 
-.modal-left, .modal-right { 
+.modal-left, .modal-right {
   width: 50%;
 }
 
@@ -1097,7 +1093,7 @@ article h3 {
   bottom: 0;
   right: 0;
   position: absolute;
-  width: 1px; 
+  width: 1px;
   height: 50%;
   border-right: 1px solid #114
 }
@@ -1132,4 +1128,9 @@ article h3 {
 
 .show-modal {
   opacity: 1;
+  z-index: 20;
+}
+
+.show-overlay{
+  z-index: 10;
 }

@@ -12,17 +12,17 @@ $(document).ready(function() {
 
 	$('.modal, .overlay').addClass('hide-modal')
 
-	
+
 
 
 	$(window).scroll(function (){
 		let scrolled = window.scrollY;
 		let scrollable = document.documentElement.scrollHeight - window.innerHeight;
-	
+
 		if (scrolled === scrollable) {
 			$('.modal, .overlay')
 			.removeClass('hide-modal')
-			.addClass('show-modal')
+			.addClass('show-modal', 'show-overlay')
 			// .fadeIn(250)
 		}
 	});
@@ -91,7 +91,9 @@ $(document).ready(function() {
 	$(".owl-carousel").owlCarousel({
 		loop: true,
 		items: 1,
-		autoHeight: false
+		autoHeight: false,
+		autoplay:true,
+    autoplayTimeout:4000,
 	});
 
 
